@@ -2,15 +2,13 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import "normalize";
-
-/*  
+/*
   ZURB Foundation components:
   Import the building blocks you need for your project. 
   Reducing the number of imported components will optimize page speed.
 */
-
-@import "config/settings"; // Default settings file. Uncomment each setting you need to change
-
+@import "config/settings";
+// Default settings file. Uncomment each setting you need to change
 @import "../bower_components/foundation/scss/foundation/components/grid";
 @import "../bower_components/foundation/scss/foundation/components/accordion";
 @import "../bower_components/foundation/scss/foundation/components/alert-boxes";
@@ -48,37 +46,33 @@
 @import "../bower_components/foundation/scss/foundation/components/type";
 @import "../bower_components/foundation/scss/foundation/components/offcanvas";
 @import "../bower_components/foundation/scss/foundation/components/visibility";
-
-/* 
+/*
   Font Awesome - (http://fontawesome.io/) :
   Feel free to remove the import statement below if you don't plan to use icon-fonts in your project
 */
-
 @import "../assets/fontawesome/scss/font-awesome.scss";
 
-
-/* 
+/*
   My custom styles:
-  Add your own folders and scss files for your project and import them below
 */
 //
-////box-shadow
-//$default-box-shadow-color: #000000;
-//$default-box-shadow-h-offset: 0px;
-//$default-box-shadow-v-offset: 2px;
-//$default-box-shadow-blur: 5px;
-//$default-box-shadow-spread: null;
-//$default-box-shadow-inset: null;
-//
-////text-shadow
-//$default-text-shadow-color: #000000;
-//$default-text-shadow-h-offset: 0px;
-//$default-text-shadow-v-offset: 2px;
-//$default-text-shadow-blur: 2px;
-//$default-text-shadow-spread: false;
-//@import "compass";
 
+//box-shadow
+$default-box-shadow-color: #7f7f7f;
+$default-box-shadow-h-offset: 0px;
+$default-box-shadow-v-offset: 2px;
+$default-box-shadow-blur: 5px;
+$default-box-shadow-spread: null;
+$default-box-shadow-inset: null;
 
+//text-shadow
+$default-text-shadow-color: #000000;
+$default-text-shadow-h-offset: 0px;
+$default-text-shadow-v-offset: 2px;
+$default-text-shadow-blur: 2px;
+$default-text-shadow-spread: false;
+
+@import "../bower_components/compass-mixins/lib/compass/css3";
 
 //  Custom Sass
 
@@ -86,28 +80,38 @@
 //  outline: solid red;
 //}
 
-//body {
-//  background-color: $color6;
-//}
-//
-//.logo-wrap {
-//  background-color: $color1;
-//}
+body {
+  background-image: url("../assets/pattern/shattered/shattered.png") ;
+  background-attachment: fixed;
 
-header{
+}
+
+
+// Header
+
+
+
+header {
   .logo-wrap {
+    z-index: 100;
     background-color: $header;
-//    @include single-box-shadow;
-    img{
+        @include box-shadow();
+    .icon-logo:before {
       height: rem-calc(130);
+      font-size: rem-calc(600);
+      line-height: .1em;
     }
-    nav{
-//      @include box-shadow(black 1px 1px 1px);
-      @media  #{$medium-only} {
-        $topbar-link-font-size: rem-calc(16);
-      }
-      a {
-//        @include single-text-shadow;
+
+    .top-bar-container{
+//      @include single-box-shadow;
+      nav {
+        .top-bar-section {
+          @media  #{$medium-only} {
+            $topbar-link-font-size: rem-calc(15.5);
+          }
+        }
+        a {
+        }
       }
     }
   }
@@ -117,14 +121,20 @@ header{
 
 }
 
-
-#programs{
-  img{
-    height: rem-calc(150);
-    display: block;
-    margin: 0 auto;
+#programs {
+//  img {
+//    height: rem-calc(150);
+//    display: block;
+//    margin: 0 auto;
+//    @include single-text-shadow;
+  a {
+    font-size: rem-calc(120);
+    text-align: center;
   }
 }
+//}
+
+// Footer
 
 footer {
   width: 100%;
@@ -132,13 +142,19 @@ footer {
   background-color: black;
   padding: 1em;
   overflow: hidden;
-  #social_links{
-    img{
-      padding: .25em 0;
+  .icon-three-men:before{
+    font-size: rem-calc(220);
+    line-height: .8em;
+    color: white;
+  }
+  #social_links {
+    a:before {
+      font-size: rem-calc(60);
+      line-height: .2em;
     }
   }
-  .copyright{
-    p{
+  .copyright {
+    p {
       color: #ffffff;
       font-size: rem-calc(10);
       @media #{$small-only} {
@@ -147,7 +163,7 @@ footer {
     }
   }
 
-  #footer_nav_left, #footer_nav_right{
+  #footer_nav_left, #footer_nav_right {
     a.first {
       border-top: 0;
     }
@@ -168,5 +184,32 @@ footer {
   }
 }
 
+// Home
 
-@import "site/base"; 
+header {
+  .top-bar-container {
+    @media #{$small-only} {
+      margin-bottom: 0;
+    }
+  }
+}
+  // About Us
+
+  .headshot {
+    padding: .5em 0;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 152px;
+      height: 152px;
+      background-color: white;
+      border-radius: 100%;
+    }
+    span {
+      display: block;
+      text-align: center;
+      line-height: .5em;
+    }
+  }
+
+  @import "site/base";

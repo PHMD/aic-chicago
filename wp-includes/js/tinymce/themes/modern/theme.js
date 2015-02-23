@@ -292,7 +292,7 @@ tinymce.ThemeManager.add('modern', function(editor) {
 	/**
 	 * Adds accessibility shortcut keys to panel.
 	 *
-	 * @param {tinymce.ui.Panel} panel Panel to add focus to.
+	 * @param {tinymce.ui.panel} panel Panel to add focus to.
 	 */
 	function addAccessibilityKeys(panel) {
 		function focus(type) {

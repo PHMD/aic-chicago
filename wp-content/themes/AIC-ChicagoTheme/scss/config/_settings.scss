@@ -1,9 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
-
 //
-
 // Table of Contents
 // Foundation Settings
 //
@@ -47,13 +45,10 @@
 // 33. Tooltips
 // 34. Top Bar
 // 36. Visibility Classes
-
 // a. Base
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-
 // This is the default html and body font-size for the base rem value.
 // $rem-base: 16px;
-
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "../../bower_components/foundation/scss/foundation/functions";
 
@@ -95,37 +90,36 @@ $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
-$header      : #1cace0;
-$nav-bg      : #f7bd02;
-$nav-hover   : darken($nav-bg, 30%);
-$panels      : rgba(15, 24, 102, 0.80);
-$nav-text    : #ffffff;
-$nav-active  : lighten($nav-bg, 30%);
-$link        : #007577;
+$header: #1cace0;
+$nav-bg: #f7bd02;
+$nav-hover: darken($nav-bg, 30%);
+$panels: rgba(28, 172, 224, 0.51);
+$nav-text: #ffffff;
+$nav-active: lighten($nav-bg, 30%);
+$link: #007577;
 $link-visited: #007577;
-$text-body   : #000000;
-$background  : #ffffff;
+$text-body: #000000;
+$background: #ffffff;
 
-
-$white       : #FFFFFF;
-$ghost       : #FAFAFA;
-$snow        : #F9F9F9;
-$vapor       : #F6F6F6;
-$white-smoke : #F5F5F5;
-$silver      : #EFEFEF;
-$smoke       : #EEEEEE;
-$gainsboro   : #DDDDDD;
-$iron        : #CCCCCC;
-$base        : #AAAAAA;
-$aluminum    : #999999;
-$jumbo       : #888888;
-$monsoon     : #777777;
-$steel       : #666666;
-$charcoal    : #555555;
-$tuatara     : #444444;
-$oil         : #333333;
-$jet         : #222222;
-$black       : #000000;
+$white: #FFFFFF;
+$ghost: #FAFAFA;
+$snow: #F9F9F9;
+$vapor: #F6F6F6;
+$white-smoke: #F5F5F5;
+$silver: #EFEFEF;
+$smoke: #EEEEEE;
+$gainsboro: #DDDDDD;
+$iron: #CCCCCC;
+$base: #AAAAAA;
+$aluminum: #999999;
+$jumbo: #888888;
+$monsoon: #777777;
+$steel: #666666;
+$charcoal: #555555;
+$tuatara: #444444;
+$oil: #333333;
+$jet: #222222;
+$black: #000000;
 
 // We use these as default colors throughout
 $primary-color: #008CBA;
@@ -566,7 +560,6 @@ $header-font-color: $white;
 // Default radius for dropdown.
 // $f-dropdown-radius: $global-radius;
 
-
 // 09. Dropdown Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -963,25 +956,25 @@ $header-font-color: $white;
 
 //   $include-html-panel-classes: $include-html-classes;
 //
-//// We use these to control the background and border styles
-//   $panel-bg: scale-color($white, $lightness: -5%);
-//   $panel-border-style: solid;
-//   $panel-border-size: 1px;
-//
-//// We use this % to control how much we darken things on hover
-//   $panel-function-factor: -11%;
-//   $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
-//
-//// We use these to set default inner padding and bottom margin
-//   $panel-margin-bottom: rem-calc(20);
-//   $panel-padding: rem-calc(20);
-//
-//// We use these to set default font colors
-//   $panel-font-color: $oil;
-//   $panel-font-color-alt: $white;
-//
-//// $panel-header-adjust: true;
-//   $callout-panel-link-color: $primary-color;
+// We use these to control the background and border styles
+   $panel-bg: $panels/*scale-color($white, $lightness: -5%)*/;
+   $panel-border-style: solid;
+   $panel-border-size: 1px;
+
+// We use this % to control how much we darken things on hover
+   $panel-function-factor: -11%;
+   $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
+
+// We use these to set default inner padding and bottom margin
+   $panel-margin-bottom: rem-calc(20);
+   $panel-padding: rem-calc(20);
+
+// We use these to set default font colors
+   $panel-font-color: $oil;
+   $panel-font-color-alt: $white;
+
+// $panel-header-adjust: true;
+   $callout-panel-link-color: $primary-color;
 
 // 22. Pricing Tables
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1401,7 +1394,7 @@ $topbar-link-color-hover: $white;
 // $topbar-link-color-active: $white;
 // $topbar-link-color-active-hover: $white;
 // $topbar-link-weight: $font-weight-normal;
-$topbar-link-font-size: rem-calc(20);
+$topbar-link-font-size: rem-calc(19);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 $topbar-link-bg-color-hover: scale-color($nav-bg, $lightness: -14%);
@@ -1444,7 +1437,8 @@ $topbar-transition-speed: 300ms;
 
 // Sticky Class
 // $topbar-sticky-class: ".sticky";
-$topbar-arrows: false; //Set false to remove the triangle icon from the menu item
+$topbar-arrows: false;
+//Set false to remove the triangle icon from the menu item
 
 // 36. Visibility Classes
 // - - - - - - - - - - - - - - - - - - - - - - - - -

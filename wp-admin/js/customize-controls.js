@@ -92,8 +92,8 @@
 	 *
 	 * @since 4.1.0
 	 *
-	 * @param {(wp.customize.Panel|wp.customize.Section|wp.customize.Control)} a
-	 * @param {(wp.customize.Panel|wp.customize.Section|wp.customize.Control)} b
+	 * @param {(wp.customize.panel|wp.customize.Section|wp.customize.Control)} a
+	 * @param {(wp.customize.panel|wp.customize.Section|wp.customize.Control)} b
 	 * @returns {Number}
 	 */
 	api.utils.prioritySort = function ( a, b ) {
@@ -526,7 +526,7 @@
 	 * @class
 	 * @augments wp.customize.Class
 	 */
-	api.Panel = Container.extend({
+	api.panel = Container.extend({
 		/**
 		 * @since 4.1.0
 		 *
@@ -1415,7 +1415,7 @@
 	// Create the collections for Controls, Sections and Panels.
 	api.control = new api.Values({ defaultConstructor: api.Control });
 	api.section = new api.Values({ defaultConstructor: api.Section });
-	api.panel = new api.Values({ defaultConstructor: api.Panel });
+	api.panel = new api.Values({ defaultConstructor: api.panel });
 
 	/**
 	 * @class
@@ -1908,9 +1908,9 @@
 
 			if ( section.hasClass( 'open' ) ) {
 				section.toggleClass( 'open' );
-				content.slideUp( api.Panel.prototype.defaultExpandedArguments.duration );
+				content.slideUp( api.panel.prototype.defaultExpandedArguments.duration );
 			} else {
-				content.slideDown( api.Panel.prototype.defaultExpandedArguments.duration );
+				content.slideDown( api.panel.prototype.defaultExpandedArguments.duration );
 				section.toggleClass( 'open' );
 			}
 		});
@@ -2022,7 +2022,7 @@
 
 		// Create Panels
 		$.each( api.settings.panels, function ( id, data ) {
-			var constructor = api.panelConstructor[ data.type ] || api.Panel,
+			var constructor = api.panelConstructor[ data.type ] || api.panel,
 				panel;
 
 			panel = new constructor( id, {

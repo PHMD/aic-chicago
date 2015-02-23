@@ -18,14 +18,14 @@ get_header(); ?>
                     <?php the_content(); ?>
                 </div>
                 <footer>
-                    <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>' )); ?>
+                    <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>')); ?>
                     <p><?php the_tags(); ?></p>
                 </footer>
                 <?php do_action('foundationPress_page_before_comments'); ?>
                 <?php comments_template(); ?>
                 <?php do_action('foundationPress_page_after_comments'); ?>
             </article>
-        <?php endwhile;?>
+        <?php endwhile; ?>
 
         <?php do_action('foundationPress_after_content'); ?>
 
