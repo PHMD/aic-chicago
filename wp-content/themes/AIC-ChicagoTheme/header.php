@@ -8,6 +8,7 @@
     <script>try {Typekit.load();} catch (e) {}</script>
 
     <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <script src="bower_components/modernizr/modernizr.js"></script>
 
 
@@ -65,17 +66,63 @@
     <div class="inner-wrap">
 
         <?php do_action('foundationPress_layout_start'); ?>
+<header>
+    <div class="logo-wrap">
+        <div class="row">
+            <div class="small-12 medium-9 columns small-centered">
+                <img src="assets/img/icons/logo.svg" alt="American Indian Center of Chicago"/>
+            </div>
+        </div>
+    </div>
 
-        <nav class="tab-bar show-for-small-only">
-            <section class="left-small">
-                <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
-            </section>
-            <section class="middle tab-bar-section">
-
-                <h1 class="title"><?php bloginfo('name'); ?></h1>
-
+    <div class="top-bar-container contain-to-grid sticky">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <!-- Left Nav Section -->
+                <ul class="left">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-dropdown"><a>About</a>
+                        <ul class="dropdown">
+                            <li><a href="us.html">Us</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="history.html">History</a></li>
+                            <li><a href="powwow.html">Powwows</a></li>
+                            <li><a href="opportunities.html">Opportunities</a></li>
+                            <li><a href="membership.html">Membership</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a>Programs</a>
+                        <ul class="dropdown">
+                            <li><a href="education.html">Education</a></li>
+                            <li><a href="arts.html">Arts</a></li>
+                            <li><a href="wellness.html">Wellness</a></li>
+                            <li><a href="activities.html">Activities</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a>Media</a>
+                        <ul class="dropdown">
+                            <li><a href="photos.html">Photos</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
             </section>
         </nav>
+    </div>
+</header>
 
         <?php get_template_part('parts/off-canvas-menu'); ?>
 
