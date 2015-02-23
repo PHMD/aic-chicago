@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>American Indian Center Chicago</title>
     <script src="//use.typekit.net/cku8vhq.js"></script>
-    <script>try {
-        Typekit.load();
-    } catch (e) {
-    }</script>
+    <script>try {Typekit.load();} catch (e) {}</script>
+
     <link rel="stylesheet" href="css/foundation.css"/>
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css"/>
+
+
+
 
 </head>
 <body>
 <header>
-
     <div class="logo-wrap">
         <div class="row">
             <div class="small-12 medium-9 columns small-centered">
-                <img src="assets/img/icons/logo.svg" alt="logo"/>
+                <img src="assets/img/icons/logo.svg" alt="American Indian Center of Chicago"/>
             </div>
         </div>
     </div>
@@ -38,7 +39,7 @@
                 <!-- Left Nav Section -->
                 <ul class="left">
                     <li><a href="index.html">Home</a></li>
-                    <li class="has-dropdown"><a href="">About</a>
+                    <li class="has-dropdown"><a>About</a>
                         <ul class="dropdown">
                             <li><a href="us.html">Us</a></li>
                             <li><a href="news.html">News</a></li>
@@ -46,9 +47,10 @@
                             <li><a href="history.html">History</a></li>
                             <li><a href="powwow.html">Powwows</a></li>
                             <li><a href="opportunities.html">Opportunities</a></li>
+                            <li><a href="membership.html">Membership</a></li>
                         </ul>
                     </li>
-                    <li class="has-dropdown"><a href="">Programs</a>
+                    <li class="has-dropdown"><a>Programs</a>
                         <ul class="dropdown">
                             <li><a href="education.html">Education</a></li>
                             <li><a href="arts.html">Arts</a></li>
@@ -56,7 +58,11 @@
                             <li><a href="activities.html">Activities</a></li>
                         </ul>
                     </li>
-                    <li class="has-dropdown"><a href="/media.html">Media</a>
+                    <li class="has-dropdown"><a>Media</a>
+                        <ul class="dropdown">
+                            <li><a href="photos.html">Photos</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <!-- Right Nav Section -->
@@ -73,6 +79,8 @@
 <!--content-->
 
 <!--end content-->
+
+
 
 <footer>
     <div class="row">
@@ -97,47 +105,46 @@
             <div class="row">
                 <div class="small-6 columns">
                     <ul class="side-nav" id="footer_nav_left">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="us.html">About Us</a></li>
                         <li><a href="history.html">History</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="powwow.html">Powwows</a></li>
                         <li><a href="opportunities.html">Opportunities</a></li>
-                        <li><a href="education.html">Education</a></li>
-                        <li><a href="us.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="membership.html">Membership</a></li>
                     </ul>
                 </div>
                 <div class="small-6 columns">
                     <ul class="side-nav" id="footer_nav_right">
+                        <li><a href="education.html">Education</a></li>
                         <li><a href="arts.html">Arts</a></li>
                         <li><a href="wellness.html">Wellness</a></li>
                         <li><a href="activities.html">Activities</a></li>
-                        <li><a href="media.html">Media</a></li>
+                        <li><a href="photos.html">Photos</a></li>
+                        <li><a href="videos.html">Videos</a></li>
                         <li><a href="store.html">Store</a></li>
-                        <li><a href="membership.html">Membership</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="donate.html">Donate</a></li>
                     </ul>
                 </div>
             </div>
+
         </div>
-        <div class="medium-3 columns" id="social_links">
-            <img src="assets/img/icons/three_men.svg" alt="logo"/>
+        <div class="medium-3 columns text-center" id="social_links">
+            <div class="icon-three-men" data-icon="f"></div>
 
             <div class="row">
                 <div class="small-4 columns">
-                    <a href="https://www.facebook.com/AmericanIndianCenter"><img src="assets/img/icons/facebook.svg"
-                                                                                 alt="facebook"/></a>
+                    <a href="https://www.facebook.com/AmericanIndianCenter" class="icon-facebook" data-icon="c"></a>
                 </div>
                 <div class="small-4 columns">
-                    <a href="https://twitter.com/native_chicago"><img src="assets/img/icons/twitter.svg" alt="twitter"/></a>
+                    <a href="https://twitter.com/native_chicago" class="icon-twitter" data-icon="g"></a>
                 </div>
                 <div class="small-4 columns">
-                    <a href="https://www.flickr.com/photos/aic-chicago/"><img src="assets/img/icons/flickr.svg"
-                                                                              alt="flicker"/></a>
+                    <a href="https://www.flickr.com/photos/aic-chicago/" class="icon-flickr" data-icon="d"></a>
                 </div>
             </div>
-            <div class="copyright">
+            <div id="copyright">
                 <p>Copyright © American Indian Center of Chicago. <br/> All Rights Reserved.
                 </p>
             </div>
@@ -147,8 +154,8 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
-<script src="bower_components/slick.js/slick/slick.js"></script>
 <script src="js/custom/init-foundation.js"></script>
+<script src="bower_components/slick.js/slick/slick.js"></script>
 
 <script>
     $(document).foundation();

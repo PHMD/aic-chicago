@@ -4,85 +4,26 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3e9db3-3f0a-4b01-9d7c-3690292fff96" name="Default" comment="navigation, footer, and media&gt;photos page ready for php conversion.&#10;&#10;Having issues with the slick slider">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/gallery_temp/gallery_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slick/slide1_large.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slick/slide2_large.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slick/slide3_large.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slick/slide4_large.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slick/slide5_large.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/audio-video.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/audio-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/cleanup.php" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/cleanup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/controllers/collection-add.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/controllers/collection-add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyeleven/content-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyeleven/content-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-widgets-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-widgets-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-widgets.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-widgets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/edit-form-advanced.php" afterPath="$PROJECT_DIR$/wp-admin/edit-form-advanced.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/css/editor-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/css/editor-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentythirteen/css/editor-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentythirteen/css/editor-style.css" />
+    <list default="true" id="7a3e9db3-3f0a-4b01-9d7c-3690292fff96" name="Default" comment="navigation, footer, and photos page ready for php conversion.&#10;&#10;Having issues with the slick slider">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/media.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/activities.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/activities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/arts.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/arts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/by-laws.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/by-laws.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/contact.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/education.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/education.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/events.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/events.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyeleven/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyeleven/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyten/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyten/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentythirteen/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentythirteen/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/controllers/gallery-add.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/controllers/gallery-add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/controllers/gallery-edit.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/controllers/gallery-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/gallery.js" afterPath="$PROJECT_DIR$/wp-admin/js/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/views/settings/gallery.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/views/settings/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/gallery.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/gallery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/general-template.php" afterPath="$PROJECT_DIR$/wp-includes/general-template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/grid.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyeleven/image.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyeleven/image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentythirteen/image.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentythirteen/image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentytwelve/image.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwelve/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/custom/init-foundation.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/custom/init-foundation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyten/loop-attachment.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyten/loop-attachment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyten/loop.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyten/loop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/mce-view.js" afterPath="$PROJECT_DIR$/wp-includes/js/mce-view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/mce-view.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/mce-view.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media-editor.js" afterPath="$PROJECT_DIR$/wp-includes/js/media-editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media-editor.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/media-editor.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/media-gallery.js" afterPath="$PROJECT_DIR$/wp-admin/js/media-gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/media-gallery.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/media-gallery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/media-upload.php" afterPath="$PROJECT_DIR$/wp-admin/media-upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/media.php" afterPath="$PROJECT_DIR$/wp-admin/includes/media.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media.php" afterPath="$PROJECT_DIR$/wp-includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/news.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpgallery/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpgallery/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpgallery/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpgallery/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/post-formats.php" afterPath="$PROJECT_DIR$/wp-includes/post-formats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/views/frame/post.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/views/frame/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/post.php" afterPath="$PROJECT_DIR$/wp-admin/includes/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentythirteen/rtl.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentythirteen/rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/script-loader.php" afterPath="$PROJECT_DIR$/wp-includes/script-loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentythirteen/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentythirteen/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/taxonomy-post_format.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/taxonomy-post_format.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/theme-support.php" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/theme-support.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/themes-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/themes-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/themes.css" afterPath="$PROJECT_DIR$/wp-admin/css/themes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyeleven/languages/twentyeleven.pot" afterPath="$PROJECT_DIR$/wp-content/themes/twentyeleven/languages/twentyeleven.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/languages/twentyfourteen.pot" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/languages/twentyfourteen.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyten/languages/twentyten.pot" afterPath="$PROJECT_DIR$/wp-content/themes/twentyten/languages/twentyten.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentythirteen/languages/twentythirteen.pot" afterPath="$PROJECT_DIR$/wp-content/themes/twentythirteen/languages/twentythirteen.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentytwelve/languages/twentytwelve.pot" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwelve/languages/twentytwelve.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/update-core.php" afterPath="$PROJECT_DIR$/wp-admin/includes/update-core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/views.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/views.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/views.manifest.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/views.manifest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media/views.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/media/views.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/widgets.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/powwow.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/powwow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/store.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/store.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/volunteer.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/volunteer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/wellness.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/wellness.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aic-chicago.iws" />
@@ -122,43 +63,101 @@
     <splitter split-orientation="horizontal" split-proportion="0.4715248">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
+          <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.54785895" vertical-offset="0" max-vertical-offset="3810">
-                  <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-                  <folding>
-                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="foundation.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/foundation.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="32745">
-                  <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+                <state vertical-scroll-proportion="-15.625" vertical-offset="765" max-vertical-offset="4410">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="init-foundation.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/custom/init-foundation.js">
+          <file leaf-file-name="history.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state vertical-scroll-proportion="-26.875" vertical-offset="495" max-vertical-offset="2550">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="membership.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/membership.html">
+          <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/news.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2610">
-                  <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+                <state vertical-scroll-proportion="-21.875" vertical-offset="615" max-vertical-offset="2565">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="photos.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-20.0" vertical-offset="660" max-vertical-offset="3420">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="powwow.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/powwow.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-20.625" vertical-offset="645" max-vertical-offset="2550">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="store.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/store.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-14.375" vertical-offset="795" max-vertical-offset="2550">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="us.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-16.25" vertical-offset="750" max-vertical-offset="3975">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="videos.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-16.25" vertical-offset="750" max-vertical-offset="2685">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="volunteer.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/volunteer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-9.375" vertical-offset="915" max-vertical-offset="2550">
+                  <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wellness.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/wellness.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.22727273" vertical-offset="975" max-vertical-offset="2550">
+                  <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -171,8 +170,8 @@
           <file leaf-file-name="foundation.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47229218" vertical-offset="1155" max-vertical-offset="3645">
-                  <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.5113636" vertical-offset="1155" max-vertical-offset="3645">
+                  <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -211,37 +210,37 @@
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.sass" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/bower_components/jquery-placeholder/bower.json" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/media.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/news.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/opportunities.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/powwow.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/store.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/volunteer.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/wellness.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/activities.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/arts.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/by-laws.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/contact.html" />
         <option value="$PROJECT_DIR$/wp-admin/css/customize-controls-rtl.css" />
         <option value="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/config/_settings.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/membership.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/styles.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/page-about.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/events.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/education.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/custom/init-foundation.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/foundation.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/arts.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/activities.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/contact.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/by-laws.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/education.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/events.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/news.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/powwow.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/store.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/volunteer.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/wellness.html" />
       </list>
     </option>
   </component>
@@ -681,7 +680,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424653772192</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="navigation, footer, and photos page ready for php conversion.&#10;&#10;Having issues with the slick slider">
+      <created>1424713940507</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1424713940507</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -710,7 +715,7 @@
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32678387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12512927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1253886" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1517572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -773,7 +778,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="commit" />
     <MESSAGE value="navigation, footer, and media&gt;photos page ready for php conversion.&#10;&#10;Having issues with the slick slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="navigation, footer, and media&gt;photos page ready for php conversion.&#10;&#10;Having issues with the slick slider" />
+    <MESSAGE value="navigation, footer, and photos page ready for php conversion.&#10;&#10;Having issues with the slick slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation, footer, and photos page ready for php conversion.&#10;&#10;Having issues with the slick slider" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -783,42 +789,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="3690">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="3885">
-          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/css/customize-controls-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4594" max-vertical-offset="14025">
-          <caret line="318" column="56" selection-start-line="318" selection-start-column="56" selection-end-line="318" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/js/customize-controls.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="3801" selection-start-line="0" selection-start-column="3801" selection-end-line="0" selection-end-column="3801" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/config/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="21825">
@@ -845,27 +815,6 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="1050" max-vertical-offset="3150">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/by-laws.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.166666" vertical-offset="1262" max-vertical-offset="3435">
-          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/media.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2460">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -907,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4394141" vertical-offset="945" max-vertical-offset="2655">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
@@ -925,13 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="709">
           <caret line="0" column="3801" selection-start-line="0" selection-start-column="3801" selection-end-line="0" selection-end-column="3801" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="3885">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -977,35 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/education.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.125" vertical-offset="1923" max-vertical-offset="2520">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.025125628" vertical-offset="15" max-vertical-offset="2460">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/arts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2460">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="585" max-vertical-offset="3690">
-          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/config/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="21825">
@@ -1018,30 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.666666" vertical-offset="1742" max-vertical-offset="2520">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="990" max-vertical-offset="3390">
-          <caret line="81" column="93" selection-start-line="81" selection-start-column="93" selection-end-line="81" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7125" vertical-offset="1108" max-vertical-offset="4425">
-          <caret line="83" column="39" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1107,6 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59010154" vertical-offset="0" max-vertical-offset="788">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,21 +1021,157 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47229218" vertical-offset="1155" max-vertical-offset="3645">
-          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+        <state vertical-scroll-proportion="-13.75" vertical-offset="810" max-vertical-offset="3810">
+          <caret line="76" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/activities.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="645" max-vertical-offset="2535">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/arts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54785895" vertical-offset="0" max-vertical-offset="3810">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-2.5" vertical-offset="1155" max-vertical-offset="2535">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="162" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="720" max-vertical-offset="3225">
+          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/by-laws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375" vertical-offset="795" max-vertical-offset="3525">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375" vertical-offset="675" max-vertical-offset="3765">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="1095" max-vertical-offset="2550">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="900" max-vertical-offset="2550">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="765" max-vertical-offset="4410">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.875" vertical-offset="495" max-vertical-offset="2550">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.875" vertical-offset="615" max-vertical-offset="2565">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="660" max-vertical-offset="3420">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/powwow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="645" max-vertical-offset="2550">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/store.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375" vertical-offset="795" max-vertical-offset="2550">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="750" max-vertical-offset="3975">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/videos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="750" max-vertical-offset="2685">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/volunteer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="915" max-vertical-offset="2550">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5113636" vertical-offset="1155" max-vertical-offset="3645">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/wellness.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273" vertical-offset="975" max-vertical-offset="2550">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
