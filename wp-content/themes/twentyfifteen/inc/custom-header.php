@@ -295,7 +295,7 @@ function twentyfifteen_sidebar_text_color_css() {
 			.widget,
 			.widget blockquote,
 			.widget .wp-caption-text,
-			.widget .gallery-caption {
+			.widget .gallery_temp-caption {
 				color: %2$s;
 			}
 

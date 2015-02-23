@@ -28,7 +28,7 @@
 
 		<div class="entry-meta">
 			<span class="post-format">
-				<a class="entry-format" href="<?php echo esc_url( get_post_format_link( 'gallery' ) ); ?>"><?php echo get_post_format_string( 'gallery' ); ?></a>
+				<a class="entry-format" href="<?php echo esc_url( get_post_format_link( 'gallery_temp' ) ); ?>"><?php echo get_post_format_string( 'gallery_temp' ); ?></a>
 			</span>
 
 			<?php twentyfourteen_posted_on(); ?>

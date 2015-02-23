@@ -884,7 +884,7 @@ function img_caption_shortcode( $attr, $content = null ) {
 	. do_shortcode( $content ) . '<p class="wp-caption-text">' . $atts['caption'] . '</p></div>';
 }
 
-add_shortcode('gallery', 'gallery_shortcode');
+add_shortcode('gallery_temp', 'gallery_shortcode');
 
 /**
  * The Gallery shortcode.
@@ -895,18 +895,18 @@ add_shortcode('gallery', 'gallery_shortcode');
  * @since 2.5.0
  *
  * @param array $attr {
- *     Attributes of the gallery shortcode.
+ *     Attributes of the gallery_temp shortcode.
  *
- *     @type string $order      Order of the images in the gallery. Default 'ASC'. Accepts 'ASC', 'DESC'.
+ *     @type string $order      Order of the images in the gallery_temp. Default 'ASC'. Accepts 'ASC', 'DESC'.
  *     @type string $orderby    The field to use when ordering the images. Default 'menu_order ID'.
  *                              Accepts any valid SQL ORDERBY statement.
  *     @type int    $id         Post ID.
- *     @type string $itemtag    HTML tag to use for each image in the gallery.
- *                              Default 'dl', or 'figure' when the theme registers HTML5 gallery support.
+ *     @type string $itemtag    HTML tag to use for each image in the gallery_temp.
+ *                              Default 'dl', or 'figure' when the theme registers HTML5 gallery_temp support.
  *     @type string $icontag    HTML tag to use for each image's icon.
- *                              Default 'dt', or 'div' when the theme registers HTML5 gallery support.
+ *                              Default 'dt', or 'div' when the theme registers HTML5 gallery_temp support.
  *     @type string $captiontag HTML tag to use for each image's caption.
- *                              Default 'dd', or 'figcaption' when the theme registers HTML5 gallery support.
+ *                              Default 'dd', or 'figcaption' when the theme registers HTML5 gallery_temp support.
  *     @type int    $columns    Number of columns of images to display. Default 3.
  *     @type string $size       Size of the images to display. Default 'thumbnail'.
  *     @type string $ids        A comma-separated list of IDs of attachments to display. Default empty.
@@ -915,7 +915,7 @@ add_shortcode('gallery', 'gallery_shortcode');
  *     @type string $link       What to link each image to. Default empty (links to the attachment page).
  *                              Accepts 'file', 'none'.
  * }
- * @return string HTML content to display gallery.
+ * @return string HTML content to display gallery_temp.
  */
 function gallery_shortcode( $attr ) {
 	$post = get_post();
@@ -932,26 +932,26 @@ function gallery_shortcode( $attr ) {
 	}
 
 	/**
-	 * Filter the default gallery shortcode output.
+	 * Filter the default gallery_temp shortcode output.
 	 *
 	 * If the filtered output isn't empty, it will be used instead of generating
-	 * the default gallery template.
+	 * the default gallery_temp template.
 	 *
 	 * @since 2.5.0
 	 * @since 4.2.0 The `$instance` parameter was added.
 	 *
 	 * @see gallery_shortcode()
 	 *
-	 * @param string $output   The gallery output. Default empty.
-	 * @param array  $attr     Attributes of the gallery shortcode.
-	 * @param int    $instance Unique numeric ID of this gallery shortcode instance.
+	 * @param string $output   The gallery_temp output. Default empty.
+	 * @param array  $attr     Attributes of the gallery_temp shortcode.
+	 * @param int    $instance Unique numeric ID of this gallery_temp shortcode instance.
 	 */
 	$output = apply_filters( 'post_gallery', '', $attr, $instance );
 	if ( $output != '' ) {
 		return $output;
 	}
 
-	$html5 = current_theme_supports( 'html5', 'gallery' );
+	$html5 = current_theme_supports( 'html5', 'gallery_temp' );
 	$atts = shortcode_atts( array(
 		'order'      => 'ASC',
 		'orderby'    => 'menu_order ID',
@@ -964,7 +964,7 @@ function gallery_shortcode( $attr ) {
 		'include'    => '',
 		'exclude'    => '',
 		'link'       => ''
-	), $attr, 'gallery' );
+	), $attr, 'gallery_temp' );
 
 	$id = intval( $atts['id'] );
 
@@ -1011,16 +1011,16 @@ function gallery_shortcode( $attr ) {
 	$itemwidth = $columns > 0 ? floor(100/$columns) : 100;
 	$float = is_rtl() ? 'right' : 'left';
 
-	$selector = "gallery-{$instance}";
+	$selector = "gallery_temp-{$instance}";
 
 	$gallery_style = '';
 
 	/**
-	 * Filter whether to print default gallery styles.
+	 * Filter whether to print default gallery_temp styles.
 	 *
 	 * @since 3.1.0
 	 *
-	 * @param bool $print Whether to print default gallery styles.
+	 * @param bool $print Whether to print default gallery_temp styles.
 	 *                    Defaults to false if the theme supports HTML5 galleries.
 	 *                    Otherwise, defaults to true.
 	 */
@@ -1030,7 +1030,7 @@ function gallery_shortcode( $attr ) {
 			#{$selector} {
 				margin: auto;
 			}
-			#{$selector} .gallery-item {
+			#{$selector} .gallery_temp-item {
 				float: {$float};
 				margin-top: 10px;
 				text-align: center;
@@ -1039,7 +1039,7 @@ function gallery_shortcode( $attr ) {
 			#{$selector} img {
 				border: 2px solid #cfcfcf;
 			}
-			#{$selector} .gallery-caption {
+			#{$selector} .gallery_temp-caption {
 				margin-left: 0;
 			}
 			/* see gallery_shortcode() in wp-includes/media.php */
@@ -1047,15 +1047,15 @@ function gallery_shortcode( $attr ) {
 	}
 
 	$size_class = sanitize_html_class( $atts['size'] );
-	$gallery_div = "<div id='$selector' class='gallery galleryid-{$id} gallery-columns-{$columns} gallery-size-{$size_class}'>";
+	$gallery_div = "<div id='$selector' class='gallery_temp galleryid-{$id} gallery_temp-columns-{$columns} gallery_temp-size-{$size_class}'>";
 
 	/**
-	 * Filter the default gallery shortcode CSS styles.
+	 * Filter the default gallery_temp shortcode CSS styles.
 	 *
 	 * @since 2.5.0
 	 *
 	 * @param string $gallery_style Default CSS styles and opening HTML div container
-	 *                              for the gallery shortcode output.
+	 *                              for the gallery_temp shortcode output.
 	 */
 	$output = apply_filters( 'gallery_style', $gallery_style . $gallery_div );
 
@@ -1076,14 +1076,14 @@ function gallery_shortcode( $attr ) {
 		if ( isset( $image_meta['height'], $image_meta['width'] ) ) {
 			$orientation = ( $image_meta['height'] > $image_meta['width'] ) ? 'portrait' : 'landscape';
 		}
-		$output .= "<{$itemtag} class='gallery-item'>";
+		$output .= "<{$itemtag} class='gallery_temp-item'>";
 		$output .= "
-			<{$icontag} class='gallery-icon {$orientation}'>
+			<{$icontag} class='gallery_temp-icon {$orientation}'>
 				$image_output
 			</{$icontag}>";
 		if ( $captiontag && trim($attachment->post_excerpt) ) {
 			$output .= "
-				<{$captiontag} class='wp-caption-text gallery-caption' id='$selector-$id'>
+				<{$captiontag} class='wp-caption-text gallery_temp-caption' id='$selector-$id'>
 				" . wptexturize($attachment->post_excerpt) . "
 				</{$captiontag}>";
 		}
@@ -2818,13 +2818,13 @@ function wp_enqueue_media( $args = array() ) {
 		// handler action suffix => tab label
 		'type'     => '',
 		'type_url' => '',
-		'gallery'  => '',
+		'gallery_temp'  => '',
 		'library'  => '',
 	);
 
 	/** This filter is documented in wp-admin/includes/media.php */
 	$tabs = apply_filters( 'media_upload_tabs', $tabs );
-	unset( $tabs['type'], $tabs['type_url'], $tabs['gallery'], $tabs['library'] );
+	unset( $tabs['type'], $tabs['type_url'], $tabs['gallery_temp'], $tabs['library'] );
 
 	$props = array(
 		'link'  => get_option( 'image_default_link_type' ), // db default is 'file'
@@ -2942,7 +2942,7 @@ function wp_enqueue_media( $args = array() ) {
 		// Library
 		'mediaLibraryTitle'      => __( 'Media Library' ),
 		'insertMediaTitle'       => __( 'Insert Media' ),
-		'createNewGallery'       => __( 'Create a new gallery' ),
+		'createNewGallery'       => __( 'Create a new gallery_temp' ),
 		'createNewPlaylist'      => __( 'Create a new playlist' ),
 		'createNewVideoPlaylist' => __( 'Create a new video playlist' ),
 		'returnToLibrary'        => __( '&#8592; Return to library' ),
@@ -2982,9 +2982,9 @@ function wp_enqueue_media( $args = array() ) {
 		'createGalleryTitle' => __( 'Create Gallery' ),
 		'editGalleryTitle'   => __( 'Edit Gallery' ),
 		'cancelGalleryTitle' => __( '&#8592; Cancel Gallery' ),
-		'insertGallery'      => __( 'Insert gallery' ),
-		'updateGallery'      => __( 'Update gallery' ),
-		'addToGallery'       => __( 'Add to gallery' ),
+		'insertGallery'      => __( 'Insert gallery_temp' ),
+		'updateGallery'      => __( 'Update gallery_temp' ),
+		'addToGallery'       => __( 'Add to gallery_temp' ),
 		'addToGalleryTitle'  => __( 'Add to Gallery' ),
 		'reverseOrder'       => __( 'Reverse order' ),
 
@@ -3169,20 +3169,20 @@ function get_media_embedded_in_content( $content, $types = null ) {
  *
  * @param int|WP_Post $post Optional. Post ID or object.
  * @param bool        $html Whether to return HTML or data in the array.
- * @return array A list of arrays, each containing gallery data and srcs parsed
+ * @return array A list of arrays, each containing gallery_temp data and srcs parsed
  *		         from the expanded shortcode.
  */
 function get_post_galleries( $post, $html = true ) {
 	if ( ! $post = get_post( $post ) )
 		return array();
 
-	if ( ! has_shortcode( $post->post_content, 'gallery' ) )
+	if ( ! has_shortcode( $post->post_content, 'gallery_temp' ) )
 		return array();
 
 	$galleries = array();
 	if ( preg_match_all( '/' . get_shortcode_regex() . '/s', $post->post_content, $matches, PREG_SET_ORDER ) ) {
 		foreach ( $matches as $shortcode ) {
-			if ( 'gallery' === $shortcode[2] ) {
+			if ( 'gallery_temp' === $shortcode[2] ) {
 				$srcs = array();
 
 				$gallery = do_shortcode_tag( $shortcode );
@@ -3215,7 +3215,7 @@ function get_post_galleries( $post, $html = true ) {
 }
 
 /**
- * Check a specified post's content for gallery and, if present, return the first
+ * Check a specified post's content for gallery_temp and, if present, return the first
  *
  * @since 3.6.0
  *
@@ -3228,11 +3228,11 @@ function get_post_gallery( $post = 0, $html = true ) {
 	$gallery = reset( $galleries );
 
 	/**
-	 * Filter the first-found post gallery.
+	 * Filter the first-found post gallery_temp.
 	 *
 	 * @since 3.6.0
 	 *
-	 * @param array       $gallery   The first-found post gallery.
+	 * @param array       $gallery   The first-found post gallery_temp.
 	 * @param int|WP_Post $post      Post ID or object.
 	 * @param array       $galleries Associative array of all found post galleries.
 	 */
@@ -3254,12 +3254,12 @@ function get_post_galleries_images( $post = 0 ) {
 }
 
 /**
- * Check a post's content for galleries and return the image srcs for the first found gallery
+ * Check a post's content for galleries and return the image srcs for the first found gallery_temp
  *
  * @since 3.6.0
  *
  * @param int|WP_Post $post Optional. Post ID or WP_Post object. Default is global $post.
- * @return array A list of a gallery's image srcs in order.
+ * @return array A list of a gallery_temp's image srcs in order.
  */
 function get_post_gallery_images( $post = 0 ) {
 	$gallery = get_post_gallery( $post, false );

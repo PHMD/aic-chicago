@@ -91,7 +91,7 @@ function twentyfifteen_setup() {
 	 * to output valid HTML5.
 	 */
 	add_theme_support( 'html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+		'search-form', 'comment-form', 'comment-list', 'gallery_temp', 'caption'
 	) );
 
 	/*
@@ -100,7 +100,7 @@ function twentyfifteen_setup() {
 	 * See: https://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
+		'aside', 'image', 'video', 'quote', 'link', 'gallery_temp', 'status', 'audio', 'chat'
 	) );
 
 	$color_scheme  = twentyfifteen_get_color_scheme();

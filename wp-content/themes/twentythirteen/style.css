@@ -1990,7 +1990,7 @@ footer.entry-meta {
 	margin: 0 auto;
 	max-width: 604px;
 	padding: 30px 0 10px;
-	text-align: left; /* gallery & video post formats */
+	text-align: left; /* gallery_temp & video post formats */
 	width: 100%;
 }
 

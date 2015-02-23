@@ -34,12 +34,12 @@ var Selection = wp.media.model.Selection,
 
 GalleryAdd = Library.extend({
 	defaults: _.defaults({
-		id:            'gallery-library',
+		id:            'gallery_temp-library',
 		title:         l10n.addToGalleryTitle,
 		multiple:      'add',
 		filterable:    'uploaded',
 		menu:          'gallery',
-		toolbar:       'gallery-add',
+		toolbar:       'gallery_temp-add',
 		priority:      100,
 		syncSelection: false
 	}, Library.prototype.defaults ),
@@ -61,14 +61,14 @@ GalleryAdd = Library.extend({
 	 */
 	activate: function() {
 		var library = this.get('library'),
-			edit    = this.frame.state('gallery-edit').get('library');
+			edit    = this.frame.state('gallery_temp-edit').get('library');
 
 		if ( this.editLibrary && this.editLibrary !== edit ) {
 			library.unobserve( this.editLibrary );
 		}
 
 		// Accepts attachments that exist in the original library and
-		// that do not exist in gallery's library.
+		// that do not exist in gallery_temp's library.
 		library.validator = function( attachment ) {
 			return !! this.mirroring.get( attachment.cid ) && ! edit.get( attachment.cid ) && Selection.prototype.validator.apply( this, arguments );
 		};

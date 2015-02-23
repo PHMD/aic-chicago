@@ -1,7 +1,7 @@
 jQuery(document).foundation();
 
 $(document).ready(function () {
-    $('.slideShow').slick({
+    $('.slider').slick({
         mobileFirst: true,
         autoplay: true,
         adaptiveHeight: true,
@@ -15,8 +15,7 @@ $(document).ready(function () {
                     arrows: true
                 }
             }
-
-
         ]
     });
 });
+

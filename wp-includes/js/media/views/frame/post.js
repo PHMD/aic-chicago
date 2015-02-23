@@ -25,8 +25,8 @@ var View = require( '../view.js' ),
 	SelectionView = require( '../selection.js' ),
 	EmbedController = require( '../../controllers/embed.js' ),
 	EditImageController = require( '../../controllers/edit-image.js' ),
-	GalleryEditController = require( '../../controllers/gallery-edit.js' ),
-	GalleryAddController = require( '../../controllers/gallery-add.js' ),
+	GalleryEditController = require( '../../controllers/gallery_temp-edit.js' ),
+	GalleryAddController = require( '../../controllers/gallery_temp-add.js' ),
 	CollectionEditController = require( '../../controllers/collection-edit.js' ),
 	CollectionAddController = require( '../../controllers/collection-add.js' ),
 	FeaturedImageController = require( '../../controllers/featured-image.js' ),
@@ -92,7 +92,7 @@ Post = Select.extend({
 				id:         'gallery',
 				title:      l10n.createGalleryTitle,
 				priority:   40,
-				toolbar:    'main-gallery',
+				toolbar:    'main-gallery_temp',
 				filterable: 'uploaded',
 				multiple:   'add',
 				editable:   false,
@@ -203,11 +203,11 @@ Post = Select.extend({
 			this.listenTo( wp.media.model.Attachments.all, 'change:type', this.mediaTypeCounts );
 		}
 
-		this.on( 'menu:create:gallery', this.createMenu, this );
+		this.on( 'menu:create:gallery_temp', this.createMenu, this );
 		this.on( 'menu:create:playlist', this.createMenu, this );
 		this.on( 'menu:create:video-playlist', this.createMenu, this );
 		this.on( 'toolbar:create:main-insert', this.createToolbar, this );
-		this.on( 'toolbar:create:main-gallery', this.createToolbar, this );
+		this.on( 'toolbar:create:main-gallery_temp', this.createToolbar, this );
 		this.on( 'toolbar:create:main-playlist', this.createToolbar, this );
 		this.on( 'toolbar:create:main-video-playlist', this.createToolbar, this );
 		this.on( 'toolbar:create:featured-image', this.featuredImageToolbar, this );
@@ -305,7 +305,7 @@ Post = Select.extend({
 					}
 
 					// Keep focus inside media modal
-					// after canceling a gallery
+					// after canceling a gallery_temp
 					this.controller.modal.focusManager.focus();
 				}
 			},
@@ -487,7 +487,7 @@ Post = Select.extend({
 
 			click: function() {
 				var selection = controller.state().get('selection'),
-					edit = controller.state('gallery-edit'),
+					edit = controller.state('gallery_temp-edit'),
 					models = selection.where({ type: 'image' });
 
 				edit.set( 'library', new wp.media.model.Selection( models, {
@@ -495,10 +495,10 @@ Post = Select.extend({
 					multiple: true
 				}) );
 
-				this.controller.setState('gallery-edit');
+				this.controller.setState('gallery_temp-edit');
 
 				// Keep focus inside media modal
-				// after jumping to gallery view
+				// after jumping to gallery_temp view
 				this.controller.modal.focusManager.focus();
 			}
 		});
@@ -623,11 +623,11 @@ Post = Select.extend({
 					click: function() {
 						var controller = this.controller,
 							state = controller.state(),
-							edit = controller.state('gallery-edit');
+							edit = controller.state('gallery_temp-edit');
 
 						edit.get('library').add( state.get('selection').models );
 						state.trigger('reset');
-						controller.setState('gallery-edit');
+						controller.setState('gallery_temp-edit');
 					}
 				}
 			}

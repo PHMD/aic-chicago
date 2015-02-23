@@ -17,7 +17,7 @@ function media_upload_tabs() {
 	$_default_tabs = array(
 		'type' => __('From Computer'), // handler action suffix => tab text
 		'type_url' => __('From URL'),
-		'gallery' => __('Gallery'),
+		'gallery_temp' => __('Gallery'),
 		'library' => __('Media Library')
 	);
 
@@ -32,18 +32,18 @@ function media_upload_tabs() {
 }
 
 /**
- * Adds the gallery tab back to the tabs array if post has image attachments
+ * Adds the gallery_temp tab back to the tabs array if post has image attachments
  *
  * @since 2.5.0
  *
  * @param array $tabs
- * @return array $tabs with gallery if post has image attachment
+ * @return array $tabs with gallery_temp if post has image attachment
  */
 function update_gallery_tab($tabs) {
 	global $wpdb;
 
 	if ( !isset($_REQUEST['post_id']) ) {
-		unset($tabs['gallery']);
+		unset($tabs['gallery_temp']);
 		return $tabs;
 	}
 
@@ -53,11 +53,11 @@ function update_gallery_tab($tabs) {
 		$attachments = intval( $wpdb->get_var( $wpdb->prepare( "SELECT count(*) FROM $wpdb->posts WHERE post_type = 'attachment' AND post_status != 'trash' AND post_parent = %d", $post_id ) ) );
 
 	if ( empty($attachments) ) {
-		unset($tabs['gallery']);
+		unset($tabs['gallery_temp']);
 		return $tabs;
 	}
 
-	$tabs['gallery'] = sprintf(__('Gallery (%s)'), "<span id='attachments-count'>$attachments</span>");
+	$tabs['gallery_temp'] = sprintf(__('Gallery (%s)'), "<span id='attachments-count'>$attachments</span>");
 
 	return $tabs;
 }
@@ -677,7 +677,7 @@ function media_upload_form_handler() {
 		}
 	}
 
-	if ( isset($_POST['insert-gallery']) || isset($_POST['update-gallery']) ) { ?>
+	if ( isset($_POST['insert-gallery_temp']) || isset($_POST['update-gallery_temp']) ) { ?>
 		<script type="text/javascript">
 		var win = window.dialogArguments || opener || parent || top;
 		win.tb_remove();
@@ -881,7 +881,7 @@ function media_upload_gallery() {
 			$errors = $return;
 	}
 
-	wp_enqueue_script('admin-gallery');
+	wp_enqueue_script('admin-gallery_temp');
 	return wp_iframe( 'media_upload_gallery_form', $errors );
 }
 
@@ -1261,7 +1261,7 @@ function get_attachment_fields_to_edit($post, $errors = null) {
 }
 
 /**
- * Retrieve HTML for media items of post gallery.
+ * Retrieve HTML for media items of post gallery_temp.
  *
  * The HTML markup retrieved will be created for the progress of SWF Upload
  * component. Will also create link for showing and hiding the form to modify
@@ -1364,7 +1364,7 @@ function get_media_item( $attachment_id, $args = null ) {
 	$display_title = ( !empty( $title ) ) ? $title : $filename; // $title shouldn't ever be empty, but just in case
 	$display_title = $r['show_title'] ? "<div class='filename new'><span class='title'>" . wp_html_excerpt( $display_title, 60, '&hellip;' ) . "</span></div>" : '';
 
-	$gallery = ( ( isset( $_REQUEST['tab'] ) && 'gallery' == $_REQUEST['tab'] ) || ( isset( $redir_tab ) && 'gallery' == $redir_tab ) );
+	$gallery = ( ( isset( $_REQUEST['tab'] ) && 'gallery_temp' == $_REQUEST['tab'] ) || ( isset( $redir_tab ) && 'gallery_temp' == $redir_tab ) );
 	$order = '';
 
 	foreach ( $form_fields as $key => $val ) {
@@ -2112,7 +2112,7 @@ echo apply_filters( 'type_url_form_media', wp_media_insert_url_form( $type ) );
 }
 
 /**
- * Adds gallery form to upload iframe
+ * Adds gallery_temp form to upload iframe
  *
  * @since 2.5.0
  *
@@ -2121,11 +2121,11 @@ echo apply_filters( 'type_url_form_media', wp_media_insert_url_form( $type ) );
 function media_upload_gallery_form($errors) {
 	global $redir_tab, $type;
 
-	$redir_tab = 'gallery';
+	$redir_tab = 'gallery_temp';
 	media_upload_header();
 
 	$post_id = intval($_REQUEST['post_id']);
-	$form_action_url = admin_url("media-upload.php?type=$type&tab=gallery&post_id=$post_id");
+	$form_action_url = admin_url("media-upload.php?type=$type&tab=gallery_temp&post_id=$post_id");
 	/** This filter is documented in wp-admin/includes/media.php */
 	$form_action_url = apply_filters( 'media_upload_form_url', $form_action_url, $type );
 	$form_class = 'media-upload-form validate';
@@ -2248,8 +2248,8 @@ jQuery(function($){
 </tbody></table>
 
 <p class="ml-submit">
-<input type="button" class="button" style="display:none;" onMouseDown="wpgallery.update();" name="insert-gallery" id="insert-gallery" value="<?php esc_attr_e( 'Insert gallery' ); ?>" />
-<input type="button" class="button" style="display:none;" onMouseDown="wpgallery.update();" name="update-gallery" id="update-gallery" value="<?php esc_attr_e( 'Update gallery settings' ); ?>" />
+<input type="button" class="button" style="display:none;" onMouseDown="wpgallery.update();" name="insert-gallery" id="insert-gallery" value="<?php esc_attr_e( 'Insert gallery_temp' ); ?>" />
+<input type="button" class="button" style="display:none;" onMouseDown="wpgallery.update();" name="update-gallery" id="update-gallery" value="<?php esc_attr_e( 'Update gallery_temp settings' ); ?>" />
 </p>
 </div>
 </form>

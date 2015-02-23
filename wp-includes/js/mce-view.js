@@ -502,7 +502,7 @@ window.wp = window.wp || {};
 
 	wp.mce.views.register( 'gallery', {
 		View: {
-			template: media.template( 'editor-gallery' ),
+			template: media.template( 'editor-gallery_temp' ),
 
 			// The fallback post ID to use as a parent for galleries that don't
 			// specify the `ids` or `include` parameters.
@@ -567,7 +567,7 @@ window.wp = window.wp || {};
 			data = window.decodeURIComponent( $( node ).attr('data-wpview-text') );
 			frame = gallery.edit( data );
 
-			frame.state('gallery-edit').on( 'update', function( selection ) {
+			frame.state('gallery_temp-edit').on( 'update', function( selection ) {
 				var shortcode = gallery.shortcode( selection ).string();
 				$( node ).attr( 'data-wpview-text', window.encodeURIComponent( shortcode ) );
 				wp.mce.views.refreshView( self, shortcode, true );

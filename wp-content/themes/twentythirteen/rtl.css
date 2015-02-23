@@ -391,7 +391,7 @@ div.nav-menu > ul {
  */
 
 .author-info {
-	text-align: right; /* gallery & video post formats */
+	text-align: right; /* gallery_temp & video post formats */
 }
 
 .author.sidebar .author-info {

@@ -418,9 +418,9 @@ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #: inc/widgets.php:162
-msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid "This gallery_temp contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
 msgid_plural ""
-"This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+"This gallery_temp contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
 msgstr[0] ""
 msgstr[1] ""
 

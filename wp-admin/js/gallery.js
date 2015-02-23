@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
 	if ( $('#media-items>*').length > 1 ) {
 		w = wpgallery.getWin();
 
-		$('#save-all, #gallery-settings').show();
+		$('#save-all, #gallery_temp-settings').show();
 		if ( typeof w.tinyMCE !== 'undefined' && w.tinyMCE.activeEditor && ! w.tinyMCE.activeEditor.isHidden() ) {
 			wpgallery.mcemode = true;
 			wpgallery.init();
@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
 
 jQuery(window).unload( function () { tinymce = tinyMCE = wpgallery = null; } ); // Cleanup
 
-/* gallery settings */
+/* gallery_temp settings */
 var tinymce = null, tinyMCE, wpgallery;
 
 wpgallery = {
@@ -192,7 +192,7 @@ wpgallery = {
 		var t = this, ed = t.editor, all = '', s;
 
 		if ( ! t.mcemode || ! t.is_update ) {
-			s = '[gallery' + t.getSettings() + ']';
+			s = '[gallery_temp' + t.getSettings() + ']';
 			t.getWin().send_to_editor(s);
 			return;
 		}

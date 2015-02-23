@@ -544,7 +544,7 @@ img {
 .gallery-columns-7 .gallery-item:nth-of-type(7n - 6),
 .gallery-columns-8 .gallery-item:nth-of-type(8n - 7),
 .gallery-columns-9 .gallery-item:nth-of-type(9n - 8) {
-	margin-left: 12px; /* Compensate for the default negative margin on .gallery, which can't be changed. */
+	margin-left: 12px; /* Compensate for the default negative margin on .gallery_temp, which can't be changed. */
 }
 
 .gallery .gallery-caption {

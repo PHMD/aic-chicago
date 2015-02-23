@@ -279,7 +279,7 @@ msgid ""
 "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
 "\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
 "span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
-"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery_temp\">%8$s</"
 "a>."
 msgstr ""
 

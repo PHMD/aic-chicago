@@ -342,7 +342,7 @@ if ( 'post' == $post_type ) {
 }
 
 if ( 'post' == $post_type || 'page' == $post_type ) {
-	$inserting_media = '<p>' . __( 'You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button.' ) . '</p>';
+	$inserting_media = '<p>' . __( 'You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery_temp, select the images to add and click the &#8220;Create a new gallery_temp&#8221; button.' ) . '</p>';
 	$inserting_media .= '<p>' . __( 'You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. Please refer to the Codex to <a href="http://codex.wordpress.org/Embeds">learn more about embeds</a>.' ) . '</p>';
 
 	get_current_screen()->add_help_tab( array(

@@ -72,7 +72,7 @@
 			break;
 	}
 
-	// If there is more than 1 image attachment in a gallery
+	// If there is more than 1 image attachment in a gallery_temp
 	if ( count( $attachments ) > 1 ) {
 		$k++;
 		if ( isset( $attachments[ $k ] ) )

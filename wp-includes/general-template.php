@@ -1156,7 +1156,7 @@ function get_the_archive_title() {
 	} elseif ( is_tax( 'post_format' ) ) {
 		if ( is_tax( 'post_format', 'post-format-aside' ) ) {
 			$title = _x( 'Asides', 'post format archive title' );
-		} elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) {
+		} elseif ( is_tax( 'post_format', 'post-format-gallery_temp' ) ) {
 			$title = _x( 'Galleries', 'post format archive title' );
 		} elseif ( is_tax( 'post_format', 'post-format-image' ) ) {
 			$title = _x( 'Images', 'post format archive title' );

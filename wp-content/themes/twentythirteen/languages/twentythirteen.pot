@@ -261,7 +261,7 @@ msgstr ""
 msgid ""
 "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
 "datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
-"rel=\"gallery\">%5$s</a></span>"
+"rel=\"gallery_temp\">%5$s</a></span>"
 msgstr ""
 
 #: image.php:38

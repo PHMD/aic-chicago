@@ -22,7 +22,7 @@ if (!function_exists('FoundationPress_start_cleanup')) :
         // clean up comment styles in the head
         add_action('wp_head', 'FoundationPress_remove_recent_comments_style', 1);
 
-        // clean up gallery output in wp
+        // clean up gallery_temp output in wp
         add_filter('FoundationPress_gallery_style', 'FoundationPress_gallery_style');
 
         // additional post related cleaning
@@ -127,7 +127,7 @@ if (!function_exists('FoundationPress_remove_recent_comments_style')) :
     }
 endif;
 
-// remove injected CSS from gallery
+// remove injected CSS from gallery_temp
 if (!function_exists('FoundationPress_gallery_style')) :
     function FoundationPress_gallery_style($css)
     {

@@ -80,7 +80,7 @@ CollectionAdd = Library.extend({
 		}
 
 		// Accepts attachments that exist in the original library and
-		// that do not exist in gallery's library.
+		// that do not exist in gallery_temp's library.
 		library.validator = function( attachment ) {
 			return !! this.mirroring.get( attachment.cid ) && ! edit.get( attachment.cid ) && Selection.prototype.validator.apply( this, arguments );
 		};

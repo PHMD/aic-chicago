@@ -40,9 +40,9 @@
 			?>
 				<figure class="gallery-thumb">
 					<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image, 'thumbnail' ); ?></a>
-				</figure><!-- .gallery-thumb -->
+				</figure><!-- .gallery_temp-thumb -->
 
-				<p><em><?php printf( _n( 'This gallery contains <a %1$s>%2$s photo</a>.', 'This gallery contains <a %1$s>%2$s photos</a>.', $total_images, 'twentyeleven' ),
+				<p><em><?php printf( _n( 'This gallery_temp contains <a %1$s>%2$s photo</a>.', 'This gallery_temp contains <a %1$s>%2$s photos</a>.', $total_images, 'twentyeleven' ),
 						'href="' . esc_url( get_permalink() ) . '" title="' . esc_attr( sprintf( __( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ) ) . '" rel="bookmark"',
 						number_format_i18n( $total_images )
 					); ?></em></p>

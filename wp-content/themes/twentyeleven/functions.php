@@ -95,7 +95,7 @@ function twentyeleven_setup() {
 	register_nav_menu( 'primary', __( 'Primary Menu', 'twentyeleven' ) );
 
 	// Add support for a variety of post formats
-	add_theme_support( 'post-formats', array( 'aside', 'link', 'gallery', 'status', 'quote', 'image' ) );
+	add_theme_support( 'post-formats', array( 'aside', 'link', 'gallery_temp', 'status', 'quote', 'image' ) );
 
 	$theme_options = twentyeleven_get_theme_options();
 	if ( 'dark' == $theme_options['color_scheme'] )
@@ -702,14 +702,14 @@ function twentyeleven_body_classes( $classes ) {
 add_filter( 'body_class', 'twentyeleven_body_classes' );
 
 /**
- * Retrieve the IDs for images in a gallery.
+ * Retrieve the IDs for images in a gallery_temp.
  *
  * @uses get_post_galleries() First, if available. Falls back to shortcode parsing,
  *                            then as last option uses a get_posts() call.
  *
  * @since Twenty Eleven 1.6
  *
- * @return array List of image IDs from the post gallery.
+ * @return array List of image IDs from the post gallery_temp.
  */
 function twentyeleven_get_gallery_images() {
 	$images = array();

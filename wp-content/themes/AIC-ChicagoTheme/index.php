@@ -28,9 +28,9 @@
             </nav>
         <?php } ?>
 
-<!--        --><?php //do_action('foundationPress_after_content'); ?>
+        <?php do_action('foundationPress_after_content'); ?>
 
     </div>
-<!--    --><?php //get_sidebar(); ?>
+    <?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>

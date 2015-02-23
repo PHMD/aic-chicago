@@ -1,6 +1,6 @@
 /* global ajaxurl */
 jQuery(function($){
-	$( 'body' ).bind( 'click.wp-gallery', function(e){
+	$( 'body' ).bind( 'click.wp-gallery_temp', function(e){
 		var target = $( e.target ), id, img_size;
 
 		if ( target.hasClass( 'wp-set-header' ) ) {

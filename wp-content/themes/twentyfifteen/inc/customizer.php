@@ -458,7 +458,7 @@ function twentyfifteen_get_color_scheme_css( $colors ) {
 	.site-info,
 	.site-info a,
 	.wp-caption-text,
-	.gallery-caption,
+	.gallery_temp-caption,
 	.comment-list .reply a,
 	.widecolumn label,
 	.widecolumn .mu_register label {
@@ -624,7 +624,7 @@ function twentyfifteen_get_color_scheme_css( $colors ) {
 		.widget,
 		.widget blockquote,
 		.widget .wp-caption-text,
-		.widget .gallery-caption {
+		.widget .gallery_temp-caption {
 			color: {$colors['secondary_sidebar_textcolor']};
 		}
 

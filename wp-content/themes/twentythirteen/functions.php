@@ -82,7 +82,7 @@ function twentythirteen_setup() {
 	 * and comments to output valid HTML5.
 	 */
 	add_theme_support( 'html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+		'search-form', 'comment-form', 'comment-list', 'gallery_temp', 'caption'
 	) );
 
 	/*
@@ -90,7 +90,7 @@ function twentythirteen_setup() {
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video'
+		'aside', 'audio', 'chat', 'gallery_temp', 'image', 'link', 'quote', 'status', 'video'
 	) );
 
 	// This theme uses wp_nav_menu() in one location.
@@ -103,7 +103,7 @@ function twentythirteen_setup() {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 604, 270, true );
 
-	// This theme uses its own gallery styles.
+	// This theme uses its own gallery_temp styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );
 }
 add_action( 'after_setup_theme', 'twentythirteen_setup' );
@@ -400,9 +400,9 @@ function twentythirteen_the_attached_image() {
 	$post                = get_post();
 
 	/*
-	 * Grab the IDs of all the image attachments in a gallery so we can get the URL
-	 * of the next adjacent image in a gallery, or the first image (if we're
-	 * looking at the last image in a gallery), or, in a gallery of one, just the
+	 * Grab the IDs of all the image attachments in a gallery_temp so we can get the URL
+	 * of the next adjacent image in a gallery_temp, or the first image (if we're
+	 * looking at the last image in a gallery_temp), or, in a gallery_temp of one, just the
 	 * link to that image file.
 	 */
 	$attachment_ids = get_posts( array(
@@ -416,7 +416,7 @@ function twentythirteen_the_attached_image() {
 		'orderby'        => 'menu_order ID',
 	) );
 
-	// If there is more than 1 attachment in a gallery...
+	// If there is more than 1 attachment in a gallery_temp...
 	if ( count( $attachment_ids ) > 1 ) {
 		foreach ( $attachment_ids as $attachment_id ) {
 			if ( $attachment_id == $post->ID ) {

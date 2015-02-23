@@ -303,13 +303,13 @@ msgid ""
 msgstr ""
 
 #: loop.php:62 loop.php:96
-msgctxt "gallery category slug"
-msgid "gallery"
+msgctxt "gallery_temp category slug"
+msgid "gallery_temp"
 msgstr ""
 
 #: loop.php:83
-msgid "This gallery contains <a %1$s>%2$s photo</a>."
-msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgid "This gallery_temp contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery_temp contains <a %1$s>%2$s photos</a>."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -393,7 +393,7 @@ msgid ""
 "The 2010 theme for WordPress is stylish, customizable, simple, and readable "
 "-- make it yours with a custom menu, header image, and background. Twenty "
 "Ten supports six widgetized areas (two in the sidebar, four in the footer) "
-"and featured images (thumbnails for gallery posts and custom header images "
+"and featured images (thumbnails for gallery_temp posts and custom header images "
 "for posts and pages). It includes stylesheets for print and the admin Visual "
 "Editor, special styles for posts in the \"Asides\" and \"Gallery\" "
 "categories, and has an optional one-column page template that removes the "

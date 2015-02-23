@@ -31,20 +31,20 @@
  */
 var Library = require( './library.js' ),
 	EditLibraryView = require( '../views/attachment/edit-library.js' ),
-	GallerySettingsView = require( '../views/settings/gallery.js' ),
+	GallerySettingsView = require( '../views/settings/gallery_temp.js' ),
 	l10n = wp.media.view.l10n,
 	GalleryEdit;
 
 GalleryEdit = Library.extend({
 	defaults: {
-		id:               'gallery-edit',
+		id:               'gallery_temp-edit',
 		title:            l10n.editGalleryTitle,
 		multiple:         false,
 		searchable:       false,
 		sortable:         true,
 		display:          false,
 		content:          'browse',
-		toolbar:          'gallery-edit',
+		toolbar:          'gallery_temp-edit',
 		describe:         true,
 		displaySettings:  true,
 		dragInfo:         true,

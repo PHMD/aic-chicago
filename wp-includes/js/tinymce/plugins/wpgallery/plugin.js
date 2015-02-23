@@ -3,7 +3,7 @@ tinymce.PluginManager.add('wpgallery', function( editor ) {
 
 	function replaceGalleryShortcodes( content ) {
 		return content.replace( /\[gallery([^\]]*)\]/g, function( match ) {
-			return html( 'wp-gallery', match );
+			return html( 'wp-gallery_temp', match );
 		});
 	}
 
@@ -44,12 +44,12 @@ tinymce.PluginManager.add('wpgallery', function( editor ) {
 
 		data = window.decodeURIComponent( editor.dom.getAttrib( node, 'data-wp-media' ) );
 
-		// Make sure we've selected a gallery node.
-		if ( editor.dom.hasClass( node, 'wp-gallery' ) && wp.media.gallery ) {
+		// Make sure we've selected a gallery_temp node.
+		if ( editor.dom.hasClass( node, 'wp-gallery_temp' ) && wp.media.gallery ) {
 			gallery = wp.media.gallery;
 			frame = gallery.edit( data );
 
-			frame.state('gallery-edit').on( 'update', function( selection ) {
+			frame.state('gallery_temp-edit').on( 'update', function( selection ) {
 				var shortcode = gallery.shortcode( selection ).string();
 				editor.dom.setAttrib( node, 'data-wp-media', window.encodeURIComponent( shortcode ) );
 				frame.detach();
@@ -85,20 +85,20 @@ tinymce.PluginManager.add('wpgallery', function( editor ) {
 		}
 	});
 
-	// Display gallery, audio or video instead of img in the element path
+	// Display gallery_temp, audio or video instead of img in the element path
 	editor.on( 'ResolveName', function( event ) {
 		var dom = editor.dom,
 			node = event.target;
 
 		if ( node.nodeName === 'IMG' && dom.getAttrib( node, 'data-wp-media' ) ) {
-			if ( dom.hasClass( node, 'wp-gallery' ) ) {
+			if ( dom.hasClass( node, 'wp-gallery_temp' ) ) {
 				event.name = 'gallery';
 			}
 		}
 	});
 
 	editor.on( 'BeforeSetContent', function( event ) {
-		// 'wpview' handles the gallery shortcode when present
+		// 'wpview' handles the gallery_temp shortcode when present
 		if ( ! editor.plugins.wpview || typeof wp === 'undefined' || ! wp.mce ) {
 			event.content = replaceGalleryShortcodes( event.content );
 		}

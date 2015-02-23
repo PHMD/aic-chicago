@@ -451,7 +451,7 @@
 					_.extend( attrs, attachments[this.tag].toJSON() );
 				}
 
-				// Convert all gallery shortcodes to use the `ids` property.
+				// Convert all gallery_temp shortcodes to use the `ids` property.
 				// Ignore `post__in` and `post__not_in`; the attachments in
 				// the collection will already reflect those properties.
 				attrs.ids = attachments.pluck('id');
@@ -460,7 +460,7 @@
 				if ( props.uploadedTo ) {
 					attrs.id = props.uploadedTo;
 				}
-				// Check if the gallery is randomly ordered.
+				// Check if the gallery_temp is randomly ordered.
 				delete attrs.orderby;
 
 				if ( attrs._orderbyRandom ) {
@@ -486,7 +486,7 @@
 					type:   'single'
 				});
 
-				// Use a cloned version of the gallery.
+				// Use a cloned version of the gallery_temp.
 				clone = new wp.media.model.Attachments( attachments.models, {
 					props: props
 				});
@@ -545,7 +545,7 @@
 					selection.props.unset('orderby');
 				});
 
-				// Destroy the previous gallery frame.
+				// Destroy the previous gallery_temp frame.
 				if ( this.frame ) {
 					this.frame.dispose();
 				}
@@ -847,7 +847,7 @@
 				});
 			}, this );
 
-			workflow.state('gallery-edit').on( 'update', function( selection ) {
+			workflow.state('gallery_temp-edit').on( 'update', function( selection ) {
 				/**
 				 * @this wp.media.editor
 				 */

@@ -44,7 +44,7 @@ get_header(); ?>
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
 							_e( 'Links', 'twentyfourteen' );
 
-						elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
+						elseif ( is_tax( 'post_format', 'post-format-gallery_temp' ) ) :
 							_e( 'Galleries', 'twentyfourteen' );
 
 						else :

@@ -9,9 +9,7 @@
 
     <link rel="stylesheet" href="css/foundation.css"/>
     <script src="bower_components/modernizr/modernizr.js"></script>
-    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
 
 
     <title><?php if (is_category()) {

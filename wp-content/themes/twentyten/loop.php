@@ -44,7 +44,7 @@
 	 *
 	 * In Twenty Ten we use the same loop in multiple contexts.
 	 * It is broken into three main parts: when we're displaying
-	 * posts that are in the gallery category, when we're displaying
+	 * posts that are in the gallery_temp category, when we're displaying
 	 * posts in the asides category, and finally all other posts.
 	 *
 	 * Additionally, we sometimes check for whether we are on an
@@ -57,9 +57,9 @@
 ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
-<?php /* How to display posts of the Gallery format. The gallery category is the old way. */ ?>
+<?php /* How to display posts of the Gallery format. The gallery_temp category is the old way. */ ?>
 
-	<?php if ( ( function_exists( 'get_post_format' ) && 'gallery' == get_post_format( $post->ID ) ) || in_category( _x( 'gallery', 'gallery category slug', 'twentyten' ) ) ) : ?>
+	<?php if ( ( function_exists( 'get_post_format' ) && 'gallery_temp' == get_post_format( $post->ID ) ) || in_category( _x( 'gallery_temp', 'gallery_temp category slug', 'twentyten' ) ) ) : ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
@@ -79,8 +79,8 @@
 				?>
 						<div class="gallery-thumb">
 							<a class="size-thumbnail" href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image, 'thumbnail' ); ?></a>
-						</div><!-- .gallery-thumb -->
-						<p><em><?php printf( _n( 'This gallery contains <a %1$s>%2$s photo</a>.', 'This gallery contains <a %1$s>%2$s photos</a>.', $total_images, 'twentyten' ),
+						</div><!-- .gallery_temp-thumb -->
+						<p><em><?php printf( _n( 'This gallery_temp contains <a %1$s>%2$s photo</a>.', 'This gallery_temp contains <a %1$s>%2$s photos</a>.', $total_images, 'twentyten' ),
 								'href="' . esc_url( get_permalink() ) . '" title="' . esc_attr( sprintf( __( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ) ) . '" rel="bookmark"',
 								number_format_i18n( $total_images )
 							); ?></em></p>
@@ -90,10 +90,10 @@
 			</div><!-- .entry-content -->
 
 			<div class="entry-utility">
-			<?php if ( function_exists( 'get_post_format' ) && 'gallery' == get_post_format( $post->ID ) ) : ?>
-				<a href="<?php echo esc_url( get_post_format_link( 'gallery' ) ); ?>" title="<?php esc_attr_e( 'View Galleries', 'twentyten' ); ?>"><?php _e( 'More Galleries', 'twentyten' ); ?></a>
+			<?php if ( function_exists( 'get_post_format' ) && 'gallery_temp' == get_post_format( $post->ID ) ) : ?>
+				<a href="<?php echo esc_url( get_post_format_link( 'gallery_temp' ) ); ?>" title="<?php esc_attr_e( 'View Galleries', 'twentyten' ); ?>"><?php _e( 'More Galleries', 'twentyten' ); ?></a>
 				<span class="meta-sep">|</span>
-			<?php elseif ( $gallery = get_term_by( 'slug', _x( 'gallery', 'gallery category slug', 'twentyten' ), 'category' ) && in_category( $gallery->term_id ) ) : ?>
+			<?php elseif ( $gallery = get_term_by( 'slug', _x( 'gallery_temp', 'gallery_temp category slug', 'twentyten' ), 'category' ) && in_category( $gallery->term_id ) ) : ?>
 				<a href="<?php echo esc_url( get_category_link( $gallery ) ); ?>" title="<?php esc_attr_e( 'View posts in the Gallery category', 'twentyten' ); ?>"><?php _e( 'More Galleries', 'twentyten' ); ?></a>
 				<span class="meta-sep">|</span>
 			<?php endif; ?>

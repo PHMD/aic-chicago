@@ -192,8 +192,8 @@ msgid "Gallery"
 msgstr ""
 
 #: content-gallery.php:45
-msgid "This gallery contains <a %1$s>%2$s photo</a>."
-msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgid "This gallery_temp contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery_temp contains <a %1$s>%2$s photos</a>."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -428,7 +428,7 @@ msgid ""
 "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
 "\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> "
 "at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> "
-"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery_temp\">%8$s</a>"
 msgstr ""
 
 #: inc/theme-options.php:56 inc/theme-options.php:528

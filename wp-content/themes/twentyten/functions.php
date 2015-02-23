@@ -75,8 +75,8 @@ function twentyten_setup() {
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
 
-	// Post Format support. You can also use the legacy "gallery" or "asides" (note the plural) categories.
-	add_theme_support( 'post-formats', array( 'aside', 'gallery' ) );
+	// Post Format support. You can also use the legacy "gallery_temp" or "asides" (note the plural) categories.
+	add_theme_support( 'post-formats', array( 'aside', 'gallery_temp' ) );
 
 	// This theme uses post thumbnails
 	add_theme_support( 'post-thumbnails' );
@@ -322,7 +322,7 @@ function twentyten_custom_excerpt_more( $output ) {
 add_filter( 'get_the_excerpt', 'twentyten_custom_excerpt_more' );
 
 /**
- * Remove inline styles printed when the gallery shortcode is used.
+ * Remove inline styles printed when the gallery_temp shortcode is used.
  *
  * Galleries are styled by the theme in Twenty Ten's style.css. This is just
  * a simple filter call that tells WordPress to not use the default styles.
@@ -332,7 +332,7 @@ add_filter( 'get_the_excerpt', 'twentyten_custom_excerpt_more' );
 add_filter( 'use_default_gallery_style', '__return_false' );
 
 /**
- * Deprecated way to remove inline styles printed when the gallery shortcode is used.
+ * Deprecated way to remove inline styles printed when the gallery_temp shortcode is used.
  *
  * This function is no longer needed or used. Use the use_default_gallery_style
  * filter instead, as seen above.
@@ -340,7 +340,7 @@ add_filter( 'use_default_gallery_style', '__return_false' );
  * @since Twenty Ten 1.0
  * @deprecated Deprecated in Twenty Ten 1.2 for WordPress 3.1
  *
- * @return string The gallery style filter, with the styles themselves removed.
+ * @return string The gallery_temp style filter, with the styles themselves removed.
  */
 function twentyten_remove_gallery_css( $css ) {
 	return preg_replace( "#<style type='text/css'>(.*?)</style>#s", '', $css );
@@ -555,14 +555,14 @@ function twentyten_posted_in() {
 endif;
 
 /**
- * Retrieve the IDs for images in a gallery.
+ * Retrieve the IDs for images in a gallery_temp.
  *
  * @uses get_post_galleries() First, if available. Falls back to shortcode parsing,
  *                            then as last option uses a get_posts() call.
  *
  * @since Twenty Ten 1.6.
  *
- * @return array List of image IDs from the post gallery.
+ * @return array List of image IDs from the post gallery_temp.
  */
 function twentyten_get_gallery_images() {
 	$images = array();

@@ -433,7 +433,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		}
 	});
 
-	// popup buttons for the gallery, etc.
+	// popup buttons for the gallery_temp, etc.
 	editor.on( 'init', function() {
 		editor.dom.bind( editor.getWin(), 'scroll', function() {
 			_hideButtons();

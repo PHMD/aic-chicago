@@ -17,11 +17,11 @@
  *                                                                          If one is not supplied, a collection of attachments of the specified type will be created.
  * @param {boolean|string}             [attributes.filterable=uploaded]     Whether the library is filterable, and if so what filters should be shown.
  *                                                                          Accepts 'all', 'uploaded', or 'unattached'.
- * @param {string}                     [attributes.menu=gallery]            Initial mode for the menu region.
+ * @param {string}                     [attributes.menu=gallery_temp]            Initial mode for the menu region.
  * @param {string}                     [attributes.content=upload]          Initial mode for the content region.
  *                                                                          Overridden by persistent user setting if 'contentUserSetting' is true.
  * @param {string}                     [attributes.router=browse]           Initial mode for the router region.
- * @param {string}                     [attributes.toolbar=gallery-add]     Initial mode for the toolbar region.
+ * @param {string}                     [attributes.toolbar=gallery_temp-add]     Initial mode for the toolbar region.
  * @param {boolean}                    [attributes.searchable=true]         Whether the library is searchable.
  * @param {boolean}                    [attributes.sortable=true]           Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
  * @param {boolean}                    [attributes.autoSelect=true]         Whether an uploaded attachment should be automatically added to the selection.
@@ -81,7 +81,7 @@ CollectionAdd = Library.extend({
 		}
 
 		// Accepts attachments that exist in the original library and
-		// that do not exist in gallery's library.
+		// that do not exist in gallery_temp's library.
 		library.validator = function( attachment ) {
 			return !! this.mirroring.get( attachment.cid ) && ! edit.get( attachment.cid ) && Selection.prototype.validator.apply( this, arguments );
 		};
@@ -120,11 +120,11 @@ module.exports = CollectionAdd;
  * @param {string}                     attributes.menu                   Initial mode for the menu region. @todo this needs a better explanation.
  * @param {boolean}                    [attributes.searchable=false]     Whether the library is searchable.
  * @param {boolean}                    [attributes.sortable=true]        Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
- * @param {boolean}                    [attributes.describe=true]        Whether to offer UI to describe the attachments - e.g. captioning images in a gallery.
+ * @param {boolean}                    [attributes.describe=true]        Whether to offer UI to describe the attachments - e.g. captioning images in a gallery_temp.
  * @param {boolean}                    [attributes.dragInfo=true]        Whether to show instructional text about the attachments being sortable.
  * @param {boolean}                    [attributes.dragInfoText]         Instructional text about the attachments being sortable.
  * @param {int}                        [attributes.idealColumnWidth=170] The ideal column width in pixels for attachments.
- * @param {boolean}                    [attributes.editing=false]        Whether the gallery is being created, or editing an existing instance.
+ * @param {boolean}                    [attributes.editing=false]        Whether the gallery_temp is being created, or editing an existing instance.
  * @param {int}                        [attributes.priority=60]          The priority for the state link in the media menu.
  * @param {boolean}                    [attributes.syncSelection=false]  Whether the Attachments selection should be persisted from the last state.
  *                                                                       Defaults to false for this state, because the library passed in  *is* the selection.
@@ -623,7 +623,7 @@ module.exports = Embed;
  *                                                                           Accepts 'all', 'uploaded', or 'unattached'.
  * @param {boolean}                    [attributes.sortable=true]            Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
  * @param {boolean}                    [attributes.autoSelect=true]          Whether an uploaded attachment should be automatically added to the selection.
- * @param {boolean}                    [attributes.describe=false]           Whether to offer UI to describe attachments - e.g. captioning images in a gallery.
+ * @param {boolean}                    [attributes.describe=false]           Whether to offer UI to describe attachments - e.g. captioning images in a gallery_temp.
  * @param {boolean}                    [attributes.contentUserSetting=true]  Whether the content region's mode should be set and persisted per user.
  * @param {boolean}                    [attributes.syncSelection=true]       Whether the Attachments selection should be persisted from the last state.
  */
@@ -719,7 +719,7 @@ module.exports = FeaturedImage;
 
 },{"./library.js":10}],7:[function(require,module,exports){
 /**
- * A state for selecting more images to add to a gallery.
+ * A state for selecting more images to add to a gallery_temp.
  *
  * @class
  * @augments wp.media.controller.Library
@@ -727,18 +727,18 @@ module.exports = FeaturedImage;
  * @augments Backbone.Model
  *
  * @param {object}                     [attributes]                         The attributes hash passed to the state.
- * @param {string}                     [attributes.id=gallery-library]      Unique identifier.
+ * @param {string}                     [attributes.id=gallery_temp-library]      Unique identifier.
  * @param {string}                     [attributes.title=Add to Gallery]    Title for the state. Displays in the frame's title region.
  * @param {boolean}                    [attributes.multiple=add]            Whether multi-select is enabled. @todo 'add' doesn't seem do anything special, and gets used as a boolean.
  * @param {wp.media.model.Attachments} [attributes.library]                 The attachments collection to browse.
  *                                                                          If one is not supplied, a collection of all images will be created.
  * @param {boolean|string}             [attributes.filterable=uploaded]     Whether the library is filterable, and if so what filters should be shown.
  *                                                                          Accepts 'all', 'uploaded', or 'unattached'.
- * @param {string}                     [attributes.menu=gallery]            Initial mode for the menu region.
+ * @param {string}                     [attributes.menu=gallery_temp]            Initial mode for the menu region.
  * @param {string}                     [attributes.content=upload]          Initial mode for the content region.
  *                                                                          Overridden by persistent user setting if 'contentUserSetting' is true.
  * @param {string}                     [attributes.router=browse]           Initial mode for the router region.
- * @param {string}                     [attributes.toolbar=gallery-add]     Initial mode for the toolbar region.
+ * @param {string}                     [attributes.toolbar=gallery_temp-add]     Initial mode for the toolbar region.
  * @param {boolean}                    [attributes.searchable=true]         Whether the library is searchable.
  * @param {boolean}                    [attributes.sortable=true]           Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
  * @param {boolean}                    [attributes.autoSelect=true]         Whether an uploaded attachment should be automatically added to the selection.
@@ -754,12 +754,12 @@ var Selection = wp.media.model.Selection,
 
 GalleryAdd = Library.extend({
 	defaults: _.defaults({
-		id:            'gallery-library',
+		id:            'gallery_temp-library',
 		title:         l10n.addToGalleryTitle,
 		multiple:      'add',
 		filterable:    'uploaded',
 		menu:          'gallery',
-		toolbar:       'gallery-add',
+		toolbar:       'gallery_temp-add',
 		priority:      100,
 		syncSelection: false
 	}, Library.prototype.defaults ),
@@ -781,14 +781,14 @@ GalleryAdd = Library.extend({
 	 */
 	activate: function() {
 		var library = this.get('library'),
-			edit    = this.frame.state('gallery-edit').get('library');
+			edit    = this.frame.state('gallery_temp-edit').get('library');
 
 		if ( this.editLibrary && this.editLibrary !== edit ) {
 			library.unobserve( this.editLibrary );
 		}
 
 		// Accepts attachments that exist in the original library and
-		// that do not exist in gallery's library.
+		// that do not exist in gallery_temp's library.
 		library.validator = function( attachment ) {
 			return !! this.mirroring.get( attachment.cid ) && ! edit.get( attachment.cid ) && Selection.prototype.validator.apply( this, arguments );
 		};
@@ -810,7 +810,7 @@ module.exports = GalleryAdd;
 /**
  * wp.media.controller.GalleryEdit
  *
- * A state for editing a gallery's images and settings.
+ * A state for editing a gallery_temp's images and settings.
  *
  * @class
  * @augments wp.media.controller.Library
@@ -818,20 +818,20 @@ module.exports = GalleryAdd;
  * @augments Backbone.Model
  *
  * @param {object}                     [attributes]                       The attributes hash passed to the state.
- * @param {string}                     [attributes.id=gallery-edit]       Unique identifier.
+ * @param {string}                     [attributes.id=gallery_temp-edit]       Unique identifier.
  * @param {string}                     [attributes.title=Edit Gallery]    Title for the state. Displays in the frame's title region.
- * @param {wp.media.model.Attachments} [attributes.library]               The collection of attachments in the gallery.
+ * @param {wp.media.model.Attachments} [attributes.library]               The collection of attachments in the gallery_temp.
  *                                                                        If one is not supplied, an empty media.model.Selection collection is created.
  * @param {boolean}                    [attributes.multiple=false]        Whether multi-select is enabled.
  * @param {boolean}                    [attributes.searchable=false]      Whether the library is searchable.
  * @param {boolean}                    [attributes.sortable=true]         Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
  * @param {string|false}               [attributes.content=browse]        Initial mode for the content region.
  * @param {string|false}               [attributes.toolbar=image-details] Initial mode for the toolbar region.
- * @param {boolean}                    [attributes.describe=true]         Whether to offer UI to describe attachments - e.g. captioning images in a gallery.
+ * @param {boolean}                    [attributes.describe=true]         Whether to offer UI to describe attachments - e.g. captioning images in a gallery_temp.
  * @param {boolean}                    [attributes.displaySettings=true]  Whether to show the attachment display settings interface.
  * @param {boolean}                    [attributes.dragInfo=true]         Whether to show instructional text about the attachments being sortable.
  * @param {int}                        [attributes.idealColumnWidth=170]  The ideal column width in pixels for attachments.
- * @param {boolean}                    [attributes.editing=false]         Whether the gallery is being created, or editing an existing instance.
+ * @param {boolean}                    [attributes.editing=false]         Whether the gallery_temp is being created, or editing an existing instance.
  * @param {int}                        [attributes.priority=60]           The priority for the state link in the media menu.
  * @param {boolean}                    [attributes.syncSelection=false]   Whether the Attachments selection should be persisted from the last state.
  *                                                                        Defaults to false for this state, because the library passed in  *is* the selection.
@@ -840,20 +840,20 @@ module.exports = GalleryAdd;
  */
 var Library = require( './library.js' ),
 	EditLibraryView = require( '../views/attachment/edit-library.js' ),
-	GallerySettingsView = require( '../views/settings/gallery.js' ),
+	GallerySettingsView = require( '../views/settings/gallery_temp.js' ),
 	l10n = wp.media.view.l10n,
 	GalleryEdit;
 
 GalleryEdit = Library.extend({
 	defaults: {
-		id:               'gallery-edit',
+		id:               'gallery_temp-edit',
 		title:            l10n.editGalleryTitle,
 		multiple:         false,
 		searchable:       false,
 		sortable:         true,
 		display:          false,
 		content:          'browse',
-		toolbar:          'gallery-edit',
+		toolbar:          'gallery_temp-edit',
 		describe:         true,
 		displaySettings:  true,
 		dragInfo:         true,
@@ -1041,7 +1041,7 @@ module.exports = ImageDetails;
  *                                                                               Accepts 'all', 'uploaded', or 'unattached'.
  * @param {boolean}                         [attributes.sortable=true]           Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
  * @param {boolean}                         [attributes.autoSelect=true]         Whether an uploaded attachment should be automatically added to the selection.
- * @param {boolean}                         [attributes.describe=false]          Whether to offer UI to describe attachments - e.g. captioning images in a gallery.
+ * @param {boolean}                         [attributes.describe=false]          Whether to offer UI to describe attachments - e.g. captioning images in a gallery_temp.
  * @param {boolean}                         [attributes.contentUserSetting=true] Whether the content region's mode should be set and persisted per user.
  * @param {boolean}                         [attributes.syncSelection=true]      Whether the Attachments selection should be persisted from the last state.
  */
@@ -1541,7 +1541,7 @@ module.exports = Region;
  *                                                                          Accepts 'all', 'uploaded', or 'unattached'.
  * @param {boolean}                    [attributes.sortable=true]           Whether the Attachments should be sortable. Depends on the orderby property being set to menuOrder on the attachments collection.
  * @param {boolean}                    [attributes.autoSelect=true]         Whether an uploaded attachment should be automatically added to the selection.
- * @param {boolean}                    [attributes.describe=false]          Whether to offer UI to describe attachments - e.g. captioning images in a gallery.
+ * @param {boolean}                    [attributes.describe=false]          Whether to offer UI to describe attachments - e.g. captioning images in a gallery_temp.
  * @param {boolean}                    [attributes.contentUserSetting=true] Whether the content region's mode should be set and persisted per user.
  * @param {boolean}                    [attributes.syncSelection=true]      Whether the Attachments selection should be persisted from the last state.
  */
@@ -2133,8 +2133,8 @@ media.controller.State = require( './controllers/state.js' );
 media.selectionSync = require( './utils/selection-sync.js' );
 media.controller.Library = require( './controllers/library.js' );
 media.controller.ImageDetails = require( './controllers/image-details.js' );
-media.controller.GalleryEdit = require( './controllers/gallery-edit.js' );
-media.controller.GalleryAdd = require( './controllers/gallery-add.js' );
+media.controller.GalleryEdit = require( './controllers/gallery_temp-edit.js' );
+media.controller.GalleryAdd = require( './controllers/gallery_temp-add.js' );
 media.controller.CollectionEdit = require( './controllers/collection-edit.js' );
 media.controller.CollectionAdd = require( './controllers/collection-add.js' );
 media.controller.FeaturedImage = require( './controllers/featured-image.js' );
@@ -2184,7 +2184,7 @@ media.view.Attachments.Selection = require( './views/attachments/selection.js' )
 media.view.Attachment.EditSelection = require( './views/attachment/edit-selection.js' );
 media.view.Settings = require( './views/settings.js' );
 media.view.Settings.AttachmentDisplay = require( './views/settings/attachment-display.js' );
-media.view.Settings.Gallery = require( './views/settings/gallery.js' );
+media.view.Settings.Gallery = require( './views/settings/gallery_temp.js' );
 media.view.Settings.Playlist = require( './views/settings/playlist.js' );
 media.view.Attachment.Details = require( './views/attachment/details.js' );
 media.view.AttachmentCompat = require( './views/attachment-compat.js' );
@@ -5067,8 +5067,8 @@ var View = require( '../view.js' ),
 	SelectionView = require( '../selection.js' ),
 	EmbedController = require( '../../controllers/embed.js' ),
 	EditImageController = require( '../../controllers/edit-image.js' ),
-	GalleryEditController = require( '../../controllers/gallery-edit.js' ),
-	GalleryAddController = require( '../../controllers/gallery-add.js' ),
+	GalleryEditController = require( '../../controllers/gallery_temp-edit.js' ),
+	GalleryAddController = require( '../../controllers/gallery_temp-add.js' ),
 	CollectionEditController = require( '../../controllers/collection-edit.js' ),
 	CollectionAddController = require( '../../controllers/collection-add.js' ),
 	FeaturedImageController = require( '../../controllers/featured-image.js' ),
@@ -5134,7 +5134,7 @@ Post = Select.extend({
 				id:         'gallery',
 				title:      l10n.createGalleryTitle,
 				priority:   40,
-				toolbar:    'main-gallery',
+				toolbar:    'main-gallery_temp',
 				filterable: 'uploaded',
 				multiple:   'add',
 				editable:   false,
@@ -5245,11 +5245,11 @@ Post = Select.extend({
 			this.listenTo( wp.media.model.Attachments.all, 'change:type', this.mediaTypeCounts );
 		}
 
-		this.on( 'menu:create:gallery', this.createMenu, this );
+		this.on( 'menu:create:gallery_temp', this.createMenu, this );
 		this.on( 'menu:create:playlist', this.createMenu, this );
 		this.on( 'menu:create:video-playlist', this.createMenu, this );
 		this.on( 'toolbar:create:main-insert', this.createToolbar, this );
-		this.on( 'toolbar:create:main-gallery', this.createToolbar, this );
+		this.on( 'toolbar:create:main-gallery_temp', this.createToolbar, this );
 		this.on( 'toolbar:create:main-playlist', this.createToolbar, this );
 		this.on( 'toolbar:create:main-video-playlist', this.createToolbar, this );
 		this.on( 'toolbar:create:featured-image', this.featuredImageToolbar, this );
@@ -5347,7 +5347,7 @@ Post = Select.extend({
 					}
 
 					// Keep focus inside media modal
-					// after canceling a gallery
+					// after canceling a gallery_temp
 					this.controller.modal.focusManager.focus();
 				}
 			},
@@ -5529,7 +5529,7 @@ Post = Select.extend({
 
 			click: function() {
 				var selection = controller.state().get('selection'),
-					edit = controller.state('gallery-edit'),
+					edit = controller.state('gallery_temp-edit'),
 					models = selection.where({ type: 'image' });
 
 				edit.set( 'library', new wp.media.model.Selection( models, {
@@ -5537,10 +5537,10 @@ Post = Select.extend({
 					multiple: true
 				}) );
 
-				this.controller.setState('gallery-edit');
+				this.controller.setState('gallery_temp-edit');
 
 				// Keep focus inside media modal
-				// after jumping to gallery view
+				// after jumping to gallery_temp view
 				this.controller.modal.focusManager.focus();
 			}
 		});
@@ -5665,11 +5665,11 @@ Post = Select.extend({
 					click: function() {
 						var controller = this.controller,
 							state = controller.state(),
-							edit = controller.state('gallery-edit');
+							edit = controller.state('gallery_temp-edit');
 
 						edit.get('library').add( state.get('selection').models );
 						state.trigger('reset');
-						controller.setState('gallery-edit');
+						controller.setState('gallery_temp-edit');
 					}
 				}
 			}
@@ -7373,8 +7373,8 @@ var Settings = require( '../settings.js' ),
 	Gallery;
 
 Gallery = Settings.extend({
-	className: 'collection-settings gallery-settings',
-	template:  wp.template('gallery-settings')
+	className: 'collection-settings gallery_temp-settings',
+	template:  wp.template('gallery_temp-settings')
 });
 
 module.exports = Gallery;

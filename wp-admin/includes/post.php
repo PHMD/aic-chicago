@@ -246,7 +246,7 @@ function edit_post( $post_data = null ) {
 			update_post_meta( $post_ID, $keyed, wp_slash( esc_url_raw( wp_unslash( $post_data[ $keyed ] ) ) ) );
 	}
 
-	$format_keys = array( 'quote', 'quote_source_name', 'image', 'gallery', 'audio_embed', 'video_embed' );
+	$format_keys = array( 'quote', 'quote_source_name', 'image', 'gallery_temp', 'audio_embed', 'video_embed' );
 
 	foreach ( $format_keys as $key ) {
 		$keyed = '_format_' . $key;

@@ -21,7 +21,7 @@ class Twenty_Fourteen_Ephemera_Widget extends WP_Widget {
 	 *
 	 * @var array
 	 */
-	private $formats = array( 'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery' );
+	private $formats = array( 'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery_temp' );
 
 	/**
 	 * Constructor.
@@ -70,7 +70,7 @@ class Twenty_Fourteen_Ephemera_Widget extends WP_Widget {
 				$format_string      = __( 'Links', 'twentyfourteen' );
 				$format_string_more = __( 'More links', 'twentyfourteen' );
 				break;
-			case 'gallery':
+			case 'gallery_temp':
 				$format_string      = __( 'Galleries', 'twentyfourteen' );
 				$format_string_more = __( 'More galleries', 'twentyfourteen' );
 				break;
@@ -121,7 +121,7 @@ class Twenty_Fourteen_Ephemera_Widget extends WP_Widget {
 				<article <?php post_class(); ?>>
 					<div class="entry-content">
 						<?php
-							if ( has_post_format( 'gallery' ) ) :
+							if ( has_post_format( 'gallery_temp' ) ) :
 
 								if ( post_password_required() ) :
 									the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ) );
@@ -159,7 +159,7 @@ class Twenty_Fourteen_Ephemera_Widget extends WP_Widget {
 						<?php endif; ?>
 						<p class="wp-caption-text">
 							<?php
-								printf( _n( 'This gallery contains <a href="%1$s" rel="bookmark">%2$s photo</a>.', 'This gallery contains <a href="%1$s" rel="bookmark">%2$s photos</a>.', $total_images, 'twentyfourteen' ),
+								printf( _n( 'This gallery_temp contains <a href="%1$s" rel="bookmark">%2$s photo</a>.', 'This gallery_temp contains <a href="%1$s" rel="bookmark">%2$s photos</a>.', $total_images, 'twentyfourteen' ),
 									esc_url( get_permalink() ),
 									number_format_i18n( $total_images )
 								);

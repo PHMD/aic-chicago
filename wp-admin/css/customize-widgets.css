@@ -501,7 +501,7 @@ body.adding-widget #customize-preview {
 #available-widgets [class*="slide"] .widget-title:before,
 #available-widgets [class*="instagram"] .widget-title:before { content: "\f128"; }
 
-/* format-gallery */
+/* format-gallery_temp */
 #available-widgets [class*="album"] .widget-title:before,
 #available-widgets [class*="galler"] .widget-title:before { content: "\f161"; }
 

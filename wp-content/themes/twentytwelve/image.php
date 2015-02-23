@@ -23,7 +23,7 @@ get_header(); ?>
 						<footer class="entry-meta">
 							<?php
 								$metadata = wp_get_attachment_metadata();
-								printf( __( '<span class="meta-prep meta-prep-entry-date">Published </span> <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> at <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> in <a href="%6$s" title="Return to %7$s" rel="gallery">%8$s</a>.', 'twentytwelve' ),
+								printf( __( '<span class="meta-prep meta-prep-entry-date">Published </span> <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> at <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> in <a href="%6$s" title="Return to %7$s" rel="gallery_temp">%8$s</a>.', 'twentytwelve' ),
 									esc_attr( get_the_date( 'c' ) ),
 									esc_html( get_the_date() ),
 									esc_url( wp_get_attachment_url() ),
@@ -49,8 +49,8 @@ get_header(); ?>
 							<div class="attachment">
 <?php
 /*
- * Grab the IDs of all the image attachments in a gallery so we can get the URL of the next adjacent image in a gallery,
- * or the first image (if we're looking at the last image in a gallery), or, in a gallery of one, just the link to that image file
+ * Grab the IDs of all the image attachments in a gallery_temp so we can get the URL of the next adjacent image in a gallery_temp,
+ * or the first image (if we're looking at the last image in a gallery_temp), or, in a gallery_temp of one, just the link to that image file
  */
 $attachments = array_values( get_children( array( 'post_parent' => $post->post_parent, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID' ) ) );
 foreach ( $attachments as $k => $attachment ) :
@@ -58,7 +58,7 @@ foreach ( $attachments as $k => $attachment ) :
 		break;
 endforeach;
 
-// If there is more than 1 attachment in a gallery
+// If there is more than 1 attachment in a gallery_temp
 if ( count( $attachments ) > 1 ) :
 	$k++;
 	if ( isset( $attachments[ $k ] ) ) :

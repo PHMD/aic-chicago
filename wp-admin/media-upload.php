@@ -22,7 +22,7 @@ wp_enqueue_script('plupload-handlers');
 wp_enqueue_script('image-edit');
 wp_enqueue_script('set-post-thumbnail' );
 wp_enqueue_style('imgareaselect');
-wp_enqueue_script( 'media-gallery' );
+wp_enqueue_script( 'media-gallery_temp' );
 
 @header('Content-Type: ' . get_option('html_type') . '; charset=' . get_option('blog_charset'));
 
@@ -54,7 +54,7 @@ if ( isset($_GET['type']) ) {
 	$type = apply_filters( 'media_upload_default_type', 'file' );
 }
 
-// Tab: gallery, library, or type-specific.
+// Tab: gallery_temp, library, or type-specific.
 if ( isset($_GET['tab']) ) {
 	$tab = strval($_GET['tab']);
 } else {

@@ -11,8 +11,8 @@ var Settings = require( '../settings.js' ),
 	Gallery;
 
 Gallery = Settings.extend({
-	className: 'collection-settings gallery-settings',
-	template:  wp.template('gallery-settings')
+	className: 'collection-settings gallery_temp-settings',
+	template:  wp.template('gallery_temp-settings')
 });
 
 module.exports = Gallery;

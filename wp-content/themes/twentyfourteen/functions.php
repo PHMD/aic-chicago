@@ -89,7 +89,7 @@ function twentyfourteen_setup() {
 	 * to output valid HTML5.
 	 */
 	add_theme_support( 'html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+		'search-form', 'comment-form', 'comment-list', 'gallery_temp', 'caption'
 	) );
 
 	/*
@@ -97,7 +97,7 @@ function twentyfourteen_setup() {
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery',
+		'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery_temp',
 	) );
 
 	// This theme allows users to set a custom background.
@@ -111,7 +111,7 @@ function twentyfourteen_setup() {
 		'max_posts' => 6,
 	) );
 
-	// This theme uses its own gallery styles.
+	// This theme uses its own gallery_temp styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );
 }
 endif; // twentyfourteen_setup
@@ -298,9 +298,9 @@ function twentyfourteen_the_attached_image() {
 	$next_attachment_url = wp_get_attachment_url();
 
 	/*
-	 * Grab the IDs of all the image attachments in a gallery so we can get the URL
-	 * of the next adjacent image in a gallery, or the first image (if we're
-	 * looking at the last image in a gallery), or, in a gallery of one, just the
+	 * Grab the IDs of all the image attachments in a gallery_temp so we can get the URL
+	 * of the next adjacent image in a gallery_temp, or the first image (if we're
+	 * looking at the last image in a gallery_temp), or, in a gallery_temp of one, just the
 	 * link to that image file.
 	 */
 	$attachment_ids = get_posts( array(
@@ -314,7 +314,7 @@ function twentyfourteen_the_attached_image() {
 		'orderby'        => 'menu_order ID',
 	) );
 
-	// If there is more than 1 attachment in a gallery...
+	// If there is more than 1 attachment in a gallery_temp...
 	if ( count( $attachment_ids ) > 1 ) {
 		foreach ( $attachment_ids as $attachment_id ) {
 			if ( $attachment_id == $post->ID ) {
