@@ -1,15 +1,17 @@
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 <head>
-    <meta charset="utf-8"/>
+ <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>American Indian Center Chicago</title>
     <script src="//use.typekit.net/cku8vhq.js"></script>
     <script>try {Typekit.load();} catch (e) {}</script>
 
     <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css"/>
 
 
 
@@ -126,7 +128,7 @@
 
         <?php get_template_part('parts/off-canvas-menu'); ?>
 
-        <?php get_template_part('parts/top-bar'); ?>
+        <?php //get_template_part('parts/top-bar'); ?>
 
         <section class="container" role="document">
 <?php do_action('foundationPress_after_header'); ?>
