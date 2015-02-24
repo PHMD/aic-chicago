@@ -83,9 +83,9 @@ $default-transition-delay    : false;
 // Global Settings
 // *****************************************************************************
 
-* {
-  outline: solid red;
-}
+//* {
+//  outline: solid red;
+//}
 
 body {
   background-image: url("../assets/pattern/shattered/shattered.png") ;
@@ -246,7 +246,7 @@ footer {
     }
     span {
       display: block;
-      line-height: .5em;
+      line-height: .25em;
     }
   }
 
