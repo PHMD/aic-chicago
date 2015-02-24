@@ -52,13 +52,8 @@
 */
 @import "../assets/fontawesome/scss/font-awesome.scss";
 
-/*
-  My custom styles:
-*/
-//
-
 // *****************************************************************************
-// Variables and Global Settings
+// Compass Settings
 // *****************************************************************************
 
 //box-shadow
@@ -76,13 +71,21 @@ $default-text-shadow-v-offset: 2px;
 $default-text-shadow-blur: 2px;
 $default-text-shadow-spread: false;
 
+// transition
+$default-transition-property : visibility;
+$default-transition-duration : 1s;
+$default-transition-function : false;
+$default-transition-delay    : false;
+
 @import "../bower_components/compass-mixins/lib/compass/css3";
 
-//  Custom Sass
+// *****************************************************************************
+// Global Settings
+// *****************************************************************************
 
-//* {
-//  outline: solid red;
-//}
+* {
+  outline: solid red;
+}
 
 body {
   background-image: url("../assets/pattern/shattered/shattered.png") ;
@@ -195,13 +198,34 @@ footer {
   position: relative;
 }
 .slide_caption{
-  width: 100%;
+  width: inherit;
+  padding: .5em;
   background-color: rgba(0, 0, 0, 0.26);
   position: absolute;
   bottom: 0;
   min-height: 80px;
   color: #ffffff;
   font-size: rem-calc(20);
+  visibility: hidden;
+}
+
+.slick-active
+{
+  .slide_caption {
+    visibility: visible;
+    @include single-transition;
+  }
+}
+
+.even_wrap{
+  display: block;
+  overflow: auto;
+  #news{
+
+    .panel {
+
+    }
+  }
 }
 
 // *****************************************************************************
