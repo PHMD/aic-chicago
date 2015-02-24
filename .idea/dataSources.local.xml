@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - phmd_aicDev@aicdev.patrickhmeehan.com" uuid="373576b4-3d20-4875-bb5f-5969bdd47857">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>phmd_aic1</user-name>
+    </data-source>
+  </component>
+</project>
