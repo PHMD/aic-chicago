@@ -104,7 +104,7 @@ function __construct() { ?>
 
 <h3><?php comments_number(__('No Responses to', 'FoundationPress'), __('One Response to', 'FoundationPress'), __('% Responses to', 'FoundationPress')); ?>
     &#8220;<?php the_title(); ?>&#8221;</h3>
-<ol class="comment-list">
+<ul class="comment-list">
 
     <?php }
 

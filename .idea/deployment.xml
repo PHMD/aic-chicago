@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="patrickhmeehan.com">
     <serverData>
+      <paths name="aicDev">
+        <serverdata>
+          <mappings>
+            <mapping deploy="public_html/aicDev" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="patrickhmeehan.com">
         <serverdata>
           <mappings>

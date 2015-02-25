@@ -4,19 +4,29 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3e9db3-3f0a-4b01-9d7c-3690292fff96" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/font-icons/untitled-font-5.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/font-icons/untitled-font-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/font-icons/untitled-font-5.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/font-icons/untitled-font-5.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/powwow/STD-62nd-Annual-PowwowV3.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/powwow/PowWow-boxsmaller.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/powwow/PowWow-boxsmaller.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide1.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide3.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide5.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide5.jpg" />
+    <list default="true" id="7a3e9db3-3f0a-4b01-9d7c-3690292fff96" name="Default" comment="fixed more images that got corrupted in merge?">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_list.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_path.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/fastclick.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/foundation.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/foundation.php" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/foundation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/styles.css" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/jquery.cookie.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/jquery.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/modernizr.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/placeholder.js" afterPath="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor/placeholder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aic-chicago.iws" />
@@ -53,69 +63,98 @@
     <favorites_list name="aic-chicago" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5158786">
+    <splitter split-orientation="horizontal" split-proportion="0.76073617">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
+          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.625" vertical-offset="2886" max-vertical-offset="3795">
-                  <caret line="195" column="3" selection-start-line="219" selection-start-column="76" selection-end-line="220" selection-end-column="22" />
+                <state vertical-scroll-proportion="-1.7647059" vertical-offset="0" max-vertical-offset="600">
+                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
                   <folding>
-                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#6#62#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/icons/logo.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
+          <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/navigation.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="18.0" vertical-offset="957" max-vertical-offset="1635">
+                  <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fontawesome-webfont.eot" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/fonts/fontawesome-webfont.eot">
+          <file leaf-file-name="foundation.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8040">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="membership.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/membership.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="18.125" vertical-offset="435" max-vertical-offset="2610">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fontawesome-webfont.svg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/fonts/fontawesome-webfont.svg">
+          <file leaf-file-name="enqueue-scripts.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/enqueue-scripts.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8550">
+                <state vertical-scroll-proportion="32.375" vertical-offset="987" max-vertical-offset="1665">
+                  <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cleanup.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/cleanup.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="25.625" vertical-offset="615" max-vertical-offset="3300">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/styles.css">
+          <file leaf-file-name="foundation.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/foundation.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="1050">
-                  <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+                <state vertical-scroll-proportion="-9.958333" vertical-offset="1441" max-vertical-offset="3120">
+                  <caret line="112" column="40" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="slide2.jpg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide2.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
+          <file leaf-file-name="entry-meta.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/entry-meta.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="slide4.jpg" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide4.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
+          <file leaf-file-name="custom-header.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/custom-header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.34653464" vertical-offset="0" max-vertical-offset="909">
+                  <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
@@ -123,12 +162,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="foundation.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="foundation.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.5826495" vertical-offset="450" max-vertical-offset="4110">
-                  <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+                <state vertical-scroll-proportion="-5.8125" vertical-offset="0" max-vertical-offset="4110">
+                  <caret line="31" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.04950495" vertical-offset="0" max-vertical-offset="3795">
+                  <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -198,9 +249,14 @@
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/donate.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/font-icons/aic-font-icons.eot" />
         <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/styles.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/enqueue-scripts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/foundation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/custom-header.php" />
+        <option value="$PROJECT_DIR$/wp-admin/php.ini" />
       </list>
     </option>
   </component>
@@ -255,206 +311,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIC-ChicagoTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIC-ChicagoTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIC-ChicagoTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIC-ChicagoTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slide_show_temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIC-ChicagoTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aic-chicago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIC-ChicagoTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -487,11 +343,11 @@
       <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/vendor" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/custom" />
       <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp" />
       <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/font-icons" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -653,7 +509,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424818939553</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixed more images that got corrupted in merge?">
+      <created>1424821152317</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1424821152318</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -678,14 +540,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-265" width="1920" height="1053" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20207255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20187305" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19146723" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24071702" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24037461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11030177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19488817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15761448" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40166494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -694,7 +556,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -705,14 +567,14 @@
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20207255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19146723" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20187305" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19146723" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24071702" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11030177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19488817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09158679" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40166494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -751,7 +613,8 @@
     <MESSAGE value="added missing files" />
     <MESSAGE value="commit header/footer changes" />
     <MESSAGE value="fixed header svg and missing thumbnails" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed header svg and missing thumbnails" />
+    <MESSAGE value="fixed more images that got corrupted in merge?" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed more images that got corrupted in merge?" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -761,34 +624,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/bower_components/jquery/dist/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="35985">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/bower_components/jquery/dist/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5192308" vertical-offset="10785" max-vertical-offset="137775">
-          <caret line="746" column="9" selection-start-line="746" selection-start-column="9" selection-end-line="746" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/bower_components/jquery/src/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/js/custom/init-foundation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="780">
@@ -841,22 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="3525">
           <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048231512" vertical-offset="0" max-vertical-offset="933">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/bower_components/fontawesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.051447" vertical-offset="26172" max-vertical-offset="27105">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -922,24 +741,6 @@
         <state vertical-scroll-proportion="0.13748191" vertical-offset="220" max-vertical-offset="4560">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5826495" vertical-offset="450" max-vertical-offset="4110">
-          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,11 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/icons/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/fontawesome/fonts/fontawesome-webfont.eot">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8040">
@@ -1071,22 +867,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.625" vertical-offset="2886" max-vertical-offset="3795">
-          <caret line="195" column="3" selection-start-line="219" selection-start-column="76" selection-end-line="220" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="1050">
+        <state vertical-scroll-proportion="0.32475883" vertical-offset="117" max-vertical-offset="1050">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/icons/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide2.jpg">
@@ -1097,6 +888,114 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/assets/img/slide_show_temp/slide4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="749">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/scss/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8125" vertical-offset="0" max-vertical-offset="4110">
+          <caret line="31" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/theme-support.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7647059" vertical-offset="0" max-vertical-offset="600">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/membership.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.125" vertical-offset="435" max-vertical-offset="2610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04950495" vertical-offset="0" max-vertical-offset="3795">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/entry-meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/enqueue-scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="32.375" vertical-offset="987" max-vertical-offset="1665">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.0" vertical-offset="957" max-vertical-offset="1635">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/foundation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333" vertical-offset="1441" max-vertical-offset="3120">
+          <caret line="112" column="40" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/cleanup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.625" vertical-offset="615" max-vertical-offset="3300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/AIC-ChicagoTheme/library/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34653464" vertical-offset="0" max-vertical-offset="909">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
