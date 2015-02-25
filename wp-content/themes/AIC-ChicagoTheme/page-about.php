@@ -4,7 +4,7 @@
     <!--<div class="small-12 large-8 columns" role="main">-->
     <div class="row small-collapse medium-uncollapse">
 
-		<!--content-->
+		<!--content--> 
 <div class="row">
     <div class="columns">
 
