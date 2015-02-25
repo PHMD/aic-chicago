@@ -1,32 +1,254 @@
 <?php get_header(); ?>
 
 <div class="row">
-    <div class="small-12 large-8 columns" role="main">
+    <!--<div class="small-12 large-8 columns" role="main">-->
+    <div class="row small-collapse medium-uncollapse">
 
-        <?php do_action('foundationPress_before_content'); ?>
+		<!--content--> 
+<div class="row">
+    <div class="columns">
 
-        <?php while (have_posts()) : the_post(); ?>
-            <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-                <header>
-                    <h1 class="entry-title"><?php the_title(); ?></h1>
-                </header>
-                <?php do_action('foundationPress_page_before_entry_content'); ?>
-                <div class="entry-content">
-                    <?php the_content(); ?>
+        <div class="row">
+            <div class="columns" id="mission_statement">
+                <div class="panel">
+                    <h1>Our Mission</h1>
+                    <hr/>
+                    <p class="text-justify">To promote the fellowship among Indian people of all Tribes living in the
+                        metropolitan Chicago, and to create bonds of understanding and communication between Indians and
+                        non-Indians in this city. To advance the general welfare of American Indians into the
+                        metropolitan
+                        community life; to foster the economic and education advancement of Indian people; to sustain
+                        cultural
+                        artistic and avocational pursuits; and to perpetuate Indian cultural values</p>
                 </div>
-                <footer>
-                    <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>')); ?>
-                    <p><?php the_tags(); ?></p>
-                </footer>
-                <?php do_action('foundationPress_page_before_comments'); ?>
-                <?php comments_template(); ?>
-                <?php do_action('foundationPress_page_after_comments'); ?>
-            </article>
-        <?php endwhile; ?>
+            </div>
+        </div>
 
+
+        <div class="panel" id="board_wrap">
+            <h1>Who we are</h1>
+            <hr/>
+
+            <!--BOARD-->
+
+            <div class="row text-center">
+                <h2>Our Board</h2>
+                <hr/>
+                <?php $url="../wp-content/themes/AIC-ChicagoTheme/";?>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>/assets/img/board/board1.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+            </div>
+
+            <!--STAFF-->
+
+            <div class="row text-center">
+                <h2>Our Staff</h2>
+                <hr/>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+                <div class="small-6 medium-4 large-3 columns headshot">
+                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
+                    <br/>
+                    <span>Name</span>
+                    <br/>
+                    <span>Title</span>
+                    <br/>
+                    <i><span>Tribe</span></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end content-->
+        
         <?php do_action('foundationPress_after_content'); ?>
 
     </div>
-    <?php get_sidebar(); ?>
+    <?php //get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
