@@ -36,7 +36,7 @@
                 <hr/>
                 <?php $url="../wp-content/themes/AIC-ChicagoTheme/";?>
                 <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>/assets/img/board/board1.jpg" alt=""/>
+                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
                     <br/>
                     <span>Name</span>
                     <br/>
