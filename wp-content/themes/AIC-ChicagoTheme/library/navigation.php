@@ -10,7 +10,6 @@ register_nav_menus(array(
     'mobile-off-canvas' => 'Mobile'
 ));
 
-
 /**
  * Left top bar
  * http://codex.wordpress.org/Function_Reference/wp_nav_menu

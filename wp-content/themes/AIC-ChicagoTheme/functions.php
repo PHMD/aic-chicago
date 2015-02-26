@@ -31,4 +31,10 @@ require_once('library/theme-support.php');
 // Add Header image
 require_once('library/custom-header.php');
 
+register_nav_menus( array(
+    'Nav-left' => __( 'Nav Left', 'theme'),
+    'Nav-right' => __( 'Nav Right', 'theme' ),
+ ) );
+ 
+
 ?>
