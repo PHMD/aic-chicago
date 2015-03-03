@@ -97,6 +97,16 @@ body {
   @include single-box-shadow()
 }
 
+.float-left {
+  float: left;
+  padding-right: .5em;
+}
+
+.float-right {
+  float: right;
+  padding-left: .5em;
+}
+
 
 // *****************************************************************************
 // Header
@@ -139,15 +149,11 @@ footer {
   background-color: black;
   padding: 1em;
   overflow: hidden;
-  .icon-three-men:before{
-    font-size: rem-calc(220);
-    line-height: .8em;
-    color: white;
-  }
+
   #social_links {
     a:before {
       font-size: rem-calc(60);
-      line-height: .2em;
+      line-height: 1.5em;
     }
   }
   #copyright {
@@ -181,17 +187,15 @@ footer {
   }
 }
 
+#social_links {
+  img {
+      padding-top: .5em;
+  }
+}
+
 // *****************************************************************************
 // Home
 // *****************************************************************************
-
-#programs {
-  a {
-    @include single-text-shadow;
-    font-size: rem-calc(120);
-    text-align: center;
-  }
-}
 
 .slider, {
   @include single-box-shadow();
@@ -209,21 +213,39 @@ footer {
   visibility: hidden;
 }
 
+#programs {
+  a {
+    @include single-text-shadow;
+    font-size: rem-calc(120);
+    text-align: center;
+  }
+}
+
+#news {
+  ul {
+
+    li {
+//      list-style: none;
+    }
+  }
+}
+
 .slick-active
 {
   .slide_caption {
     visibility: visible;
+    z-index: 101;
     @include single-transition;
   }
 }
 
-.even_wrap{
-  display: block;
-  overflow: auto;
-  #news{
+#sponsors {
+  ul {
+    li {
+      img{
 
-    .panel {
-
+        padding: 3em 0;
+      }
     }
   }
 }
@@ -251,12 +273,27 @@ footer {
   }
 
 
+// *****************************************************************************
+// History
+// *****************************************************************************
+
 
 
 // *****************************************************************************
-// Gallery
+// Education
 // *****************************************************************************
 
+// *****************************************************************************
+// Wellness
+// *****************************************************************************
+
+// *****************************************************************************
+// Arts
+// *****************************************************************************
+
+// *****************************************************************************
+// Archery
+// *****************************************************************************
 
 // *****************************************************************************
 // Membership
