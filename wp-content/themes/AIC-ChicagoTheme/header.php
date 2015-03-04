@@ -1,3 +1,14 @@
+<?php /*?><?php 
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'Nav-left' => __( 'Nav Left' ),
+      'Nav-right' => __( 'Nav Right' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+?><?php */?>
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 <head>
@@ -16,7 +27,6 @@
           href="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/css/styles.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css"/>
-
 
     <title><?php if (is_category()) {
             echo 'Category Archive for &quot;';
@@ -75,7 +85,7 @@
             <div class="logo-wrap">
                 <div class="row">
                     <div class="small-12 medium-9 columns small-centered">
-                        <img src="assets/img/icons/header_img.svg" alt="American Indian Center of Chicago"/>
+                        <img src="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/assets/img/icons/header_img.svg" alt="American Indian Center of Chicago"/>
                     </div>
                 </div>
             </div>
@@ -89,8 +99,10 @@
                         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
                     </ul>
                     <section class="top-bar-section">
-                        <!-- Left Nav Section -->
-                        <ul class="left">
+<!-- Left Nav Section -->
+
+<?php wp_nav_menu( array( 'theme' => 'Nav-left' ) ); ?>
+                        <!--   <ul class="left">
                             <li><a href="index.html">Home</a></li>
                             <li class="has-dropdown"><a>About</a>
                                 <ul class="dropdown">
@@ -120,9 +132,11 @@
                         </ul>
                         <!-- Right Nav Section -->
                         <ul class="right">
-                            <li><a href="store.html">Store</a></li>
+                        <?php wp_nav_menu( array('container_class' => 'Nav-right',
+        'theme_location' => 'Nav-right') ); ?>
+                            <!--<li><a href="store.html">Store</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                            <li><a href="donate.html">Donate</a></li>
+                            <li><a href="donate.html">Donate</a></li>-->
                         </ul>
                     </section>
                 </nav>
