@@ -85,7 +85,7 @@ add_action( 'init', 'register_my_menus' );
             <div class="logo-wrap">
                 <div class="row">
                     <div class="small-12 medium-9 columns small-centered">
-                        <img src="assets/img/icons/header_img.svg" alt="American Indian Center of Chicago"/>
+                        <img src="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/assets/img/icons/header_img.svg" alt="American Indian Center of Chicago"/>
                     </div>
                 </div>
             </div>
