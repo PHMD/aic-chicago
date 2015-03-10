@@ -83,10 +83,11 @@
 </div>
 <?php wp_footer(); ?>
 <?php do_action('foundationPress_before_closing_body'); ?>
-<script src="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/js/vendor/jquery.js"></script>
-<script src="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/js/foundation.js"></script>
-<script src="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/js/custom/init-foundation.js"></script>
-<script src="http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/assets/bower_components/slick.js/slick/slick.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="js/custom/init-foundation.js"></script>
+<script src="bower_components/slick.js/slick/slick.js"></script>
 
 <script>
     $(document).foundation();

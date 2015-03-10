@@ -10,11 +10,7 @@ register_nav_menus(array(
     'mobile-off-canvas' => 'Mobile'
 ));
 
-register_nav_menus( array(
-    'Nav-left' => __( 'Nav Left', 'theme'),
-    'Nav-right' => __( 'Nav Right', 'theme' ),
- ) );
- 
+
 /**
  * Left top bar
  * http://codex.wordpress.org/Function_Reference/wp_nav_menu

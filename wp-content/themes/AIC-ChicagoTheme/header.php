@@ -1,4 +1,5 @@
 <?php $domain = "http://doomsdaytuesday.com/aic-chicago/wp-content/themes/AIC-ChicagoTheme/" ?>
+
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 	<head>
@@ -57,10 +58,10 @@
 
 		</section>
 	</nav>
-</header>
+
 	<?php get_template_part('parts/off-canvas-menu'); ?>
 
 	<?php get_template_part('parts/top-bar'); ?>
-
+</header>
 <section class="container" role="document">
 	<?php do_action('foundationPress_after_header'); ?>
