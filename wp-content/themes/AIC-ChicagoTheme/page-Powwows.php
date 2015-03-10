@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<div class="row">
  <!--content-->
 
 <div class="row">
@@ -15,5 +14,5 @@
 </div>
 
 <!--end content-->
-</div>
+
 <?php get_footer(); ?>

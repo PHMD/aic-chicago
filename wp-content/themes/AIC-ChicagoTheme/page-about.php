@@ -1,10 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
-    <!--<div class="small-12 large-8 columns" role="main">-->
-    <div class="row small-collapse medium-uncollapse">
-
-		<!--content--> 
+<!--content-->
 <div class="row">
     <div class="columns">
 
@@ -34,221 +30,42 @@
             <div class="row text-center">
                 <h2>Our Board</h2>
                 <hr/>
-                <?php $url="../wp-content/themes/AIC-ChicagoTheme/";?>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-            </div>
+                <?php echo do_shortcode('[tmm name="board-members"]'); ?>
+            <hr/>
 
             <!--STAFF-->
-
-            <div class="row text-center">
-                <h2>Our Staff</h2>
+            <div class="row"><h2 class="text-center">Our Staff</h2>
                 <hr/>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board4.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board1.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board2.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
-                <div class="small-6 medium-4 large-3 columns headshot">
-                    <img src="<?php echo $url;?>assets/img/board/board3.jpg" alt=""/>
-                    <br/>
-                    <span>Name</span>
-                    <br/>
-                    <span>Title</span>
-                    <br/>
-                    <i><span>Tribe</span></i>
-                </div>
+                <ul class="medium-6 columns" >
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                </ul>
+                <ul class="medium-5 columns">
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                    <li>Staff member</li>
+                </ul>
             </div>
-        </div>
     </div>
+
+
+    </ul>
+
+
+</div>
 </div>
 <!--end content-->
-        
-        <?php do_action('foundationPress_after_content'); ?>
 
-    </div>
-    <?php //get_sidebar(); ?>
-</div>
+
 <?php get_footer(); ?>
