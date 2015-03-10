@@ -3,30 +3,7 @@
 
 
 <div class="row small-collapse medium-uncollapse">
-    <div class="columns">
-        <div class="slider slide_has_caption">
-            <div><img src="assets/img/slide_show_temp/slide1.jpg" alt="feature image"/>
-
-                <div class="slide_caption">Slide Caption</div>
-            </div>
-            <div><img src="assets/img/slide_show_temp/slide2.jpg" alt="feature image"/>
-
-                <div class="slide_caption">Slide Caption</div>
-            </div>
-            <div><img src="assets/img/slide_show_temp/slide3.jpg" alt="feature image"/>
-
-                <div class="slide_caption">Slide Caption</div>
-            </div>
-            <div><img src="assets/img/slide_show_temp/slide4.jpg" alt="feature image"/>
-
-                <div class="slide_caption">Slide Caption</div>
-            </div>
-            <div><img src="assets/img/slide_show_temp/slide5.jpg" alt="feature image"/>
-
-                <div class="slide_caption">Slide Caption</div>
-            </div>
-        </div>
-    </div>
+    <?php echo do_shortcode('[espro-slider id=137]'); ?>
 </div>
 
 <div class="row" data-equalizer>
